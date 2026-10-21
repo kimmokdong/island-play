@@ -1,0 +1,170 @@
+{
+  "meadow-tree-a": {
+    "pack": "NatureForge_ Low Poly Meadow & Farm Kit [Godot,Unity,Blend]",
+    "archive": "GLB.zip",
+    "entry": "glTF/EM_Tree1a_PRE.glb",
+    "sha256": "63d4786be9bad71b8ea503198189276e88d088bebf7c119ef600ddfaba7aeff2",
+    "triangles": 1011
+  },
+  "meadow-tree-b": {
+    "pack": "NatureForge_ Low Poly Meadow & Farm Kit [Godot,Unity,Blend]",
+    "archive": "GLB.zip",
+    "entry": "glTF/EM_Tree2a_PRE.glb",
+    "sha256": "f8288c57c6073cbe03c0fc97e9cc9c7dad8b94131dabfa9938beeeecf501c170",
+    "triangles": 1180
+  },
+  "meadow-tree-c": {
+    "pack": "NatureForge_ Low Poly Meadow & Farm Kit [Godot,Unity,Blend]",
+    "archive": "GLB.zip",
+    "entry": "glTF/EM_Tree3a_PRE.glb",
+    "sha256": "31e09fc9f937da53e05687d686f95a0723f632872ad8eeef29c7055a08310c59",
+    "triangles": 951
+  },
+  "meadow-rock": {
+    "pack": "NatureForge_ Low Poly Meadow & Farm Kit [Godot,Unity,Blend]",
+    "archive": "GLB.zip",
+    "entry": "glTF/EA_Env_Rock_01a_PRE.glb",
+    "sha256": "753c5fe8694d64c802b5dad152b6a520f1b740429d4aa3de8a9568b02cd69111",
+    "triangles": 118
+  },
+  "meadow-bush": {
+    "pack": "NatureForge_ Low Poly Meadow & Farm Kit [Godot,Unity,Blend]",
+    "archive": "GLB.zip",
+    "entry": "glTF/EA_M_Env_Bush_LeafClusterLarge_01ax_PRE.glb",
+    "sha256": "b39ff9579cedca766a76b04abf1e0f08d3007358836e150b13fbac7e2892fcf7",
+    "triangles": 1656
+  },
+  "meadow-berry": {
+    "pack": "NatureForge_ Low Poly Meadow & Farm Kit [Godot,Unity,Blend]",
+    "archive": "GLB.zip",
+    "entry": "glTF/EA_M_Env_Bush_BerryDome_01a_PRE.glb",
+    "sha256": "31b283065b496ef9b907fe5e2be7af940347668b93a905eb2c2986753da0d56a",
+    "triangles": 1304
+  },
+  "meadow-grass": {
+    "pack": "NatureForge_ Low Poly Meadow & Farm Kit [Godot,Unity,Blend]",
+    "archive": "GLB.zip",
+    "entry": "glTF/EA_M_Env_TallGrass_02a_PRE.glb",
+    "sha256": "7ff5c81d079e9487536d77a41c2b4f6f6c48aa3a4b2ac794e7d64e4d04c641a5",
+    "triangles": 660
+  },
+  "meadow-flower": {
+    "pack": "NatureForge_ Low Poly Meadow & Farm Kit [Godot,Unity,Blend]",
+    "archive": "GLB.zip",
+    "entry": "glTF/EA_M_Env_Flower_Cluster_01a_PRE.glb",
+    "sha256": "72dc86eddaf40add040f18ddf9be378e8c1a9bb0593e38b087af016d76c6e18b",
+    "triangles": 10560
+  },
+  "woodland-rock": {
+    "pack": "NatureForge_ Stylized Woodland Forest Pack",
+    "archive": "glb.zip",
+    "entry": "glb/EA01_Env_Rock_01a.glb",
+    "sha256": "431ec478e2c09c8c358d5bfcf4352db6c208f9c1cfed4b9d5a7998efc2d3d004",
+    "triangles": 481
+  },
+  "luma-tree": {
+    "pack": "LumaGrove_ Unity Wonky Woods - Low Poly Nature Asset Pack",
+    "archive": "Glb.zip",
+    "entry": "Glb/EA_Env_Flora_GreenTree_01a.glb",
+    "sha256": "5b12aa1973e62f5a06150e3f53c751d2865aed665ae1c217e27ef3c7a1729cef",
+    "triangles": 573
+  },
+  "luma-rock": {
+    "pack": "LumaGrove_ Unity Wonky Woods - Low Poly Nature Asset Pack",
+    "archive": "Glb.zip",
+    "entry": "Glb/EA_Env_Rock_Boulder_Grass_01a.glb",
+    "sha256": "f657846e1b18efba9d1283d0895848104159ffd2b2e7addf1be6543522d1395a",
+    "triangles": 922
+  },
+  "nature-tree-a": {
+    "pack": "Nature Megapack - Low Poly Extended (Unity, Godot Project, FBX)",
+    "archive": "Low Poly Nature_Godot.zip",
+    "entry": "low-poly-nature--extended/LowPolyNature_Godot/Models/Trees/Big_Tree_1_AA.glb",
+    "sha256": "eddf104cc99729a429cd37df5154f4ee68907cda21e5437aabb2daf31857d62e",
+    "triangles": 1102
+  },
+  "nature-tree-b": {
+    "pack": "Nature Megapack - Low Poly Extended (Unity, Godot Project, FBX)",
+    "archive": "Low Poly Nature_Godot.zip",
+    "entry": "low-poly-nature--extended/LowPolyNature_Godot/Models/Trees/Big_Tree_2_AA.glb",
+    "sha256": "72971aa3960a84b7311692ec5657b4ce8a1096aed2e557d5fe805bfa049e7cae",
+    "triangles": 910
+  },
+  "nature-pine": {
+    "pack": "Nature Megapack - Low Poly Extended (Unity, Godot Project, FBX)",
+    "archive": "Low Poly Nature_Godot.zip",
+    "entry": "low-poly-nature--extended/LowPolyNature_Godot/Models/Trees/Tree_7_AA.glb",
+    "sha256": "1e8722b3c8c560fa032f8aacbb08ff5c3fdc3e8e8c98789611fe61e338ba60af",
+    "triangles": 256
+  },
+  "nature-rock": {
+    "pack": "Nature Megapack - Low Poly Extended (Unity, Godot Project, FBX)",
+    "archive": "Low Poly Nature_Godot.zip",
+    "entry": "low-poly-nature--extended/LowPolyNature_Godot/Models/Rocks/Rock_1_1_A.glb",
+    "sha256": "f90382032de23236e670a9f555235ccf4be226cc0ca811063330a1fb87667ce0",
+    "triangles": 146
+  },
+  "nature-bush": {
+    "pack": "Nature Megapack - Low Poly Extended (Unity, Godot Project, FBX)",
+    "archive": "Low Poly Nature_Godot.zip",
+    "entry": "low-poly-nature--extended/LowPolyNature_Godot/Models/Other/Bush_1_1_A.glb",
+    "sha256": "7ec614bbd5d115f13259a33196a45237ae416a3c143990a7e2c710cddec93694",
+    "triangles": 320
+  },
+  "nature-grass": {
+    "pack": "Nature Megapack - Low Poly Extended (Unity, Godot Project, FBX)",
+    "archive": "Low Poly Nature_Godot.zip",
+    "entry": "low-poly-nature--extended/LowPolyNature_Godot/Models/Other/Grass_1_A.glb",
+    "sha256": "1e7579307c80ac35f2e3340a7547a1e439578f868b39b82e032073dc312444cc",
+    "triangles": 104
+  },
+  "nature-flower": {
+    "pack": "Nature Megapack - Low Poly Extended (Unity, Godot Project, FBX)",
+    "archive": "Low Poly Nature_Godot.zip",
+    "entry": "low-poly-nature--extended/LowPolyNature_Godot/Models/Flowers/Flower_1_1_A.glb",
+    "sha256": "2b47c9c1a54e4776b57fc1de6332ade3c1de3a4eb62ddf0a5fb76cc99279dc24",
+    "triangles": 592
+  },
+  "nature-log": {
+    "pack": "Nature Megapack - Low Poly Extended (Unity, Godot Project, FBX)",
+    "archive": "Low Poly Nature_Godot.zip",
+    "entry": "low-poly-nature--extended/LowPolyNature_Godot/Models/Other/Wooden_Log_1_1_A.glb",
+    "sha256": "761188bdad429146c5304cd52b60bd376f365577df783c9929c4fdd7bd0dec58",
+    "triangles": 192
+  },
+  "pirate-palm": {
+    "pack": "Pirate Island (Unity, Godot , FBX)",
+    "archive": "Pirate Island.zip",
+    "entry": "Pirate Island/gLTF/SM_Palm_1_A.glb",
+    "sha256": "e14c70d56117687117ca2a0f1e33cf7021a7d0803d0a86303afac50425ed09b3",
+    "triangles": 2026
+  },
+  "pirate-banana": {
+    "pack": "Pirate Island (Unity, Godot , FBX)",
+    "archive": "Pirate Island.zip",
+    "entry": "Pirate Island/gLTF/SM_BananaTree_1_A.glb",
+    "sha256": "56aef1a3895eb7b86e7d2f59d258f687defc69dedff616ce4b5b5b4022314d8f",
+    "triangles": 2130
+  },
+  "pirate-rock": {
+    "pack": "Pirate Island (Unity, Godot , FBX)",
+    "archive": "Pirate Island.zip",
+    "entry": "Pirate Island/gLTF/SM_Rock_1_A.glb",
+    "sha256": "b479dac537dd53bcd810f7a5f6b4ecb163a76321820b617957b05d1e355e5a31",
+    "triangles": 964
+  },
+  "pirate-shell": {
+    "pack": "Pirate Island (Unity, Godot , FBX)",
+    "archive": "Pirate Island.zip",
+    "entry": "Pirate Island/gLTF/SM_Shell_A.glb",
+    "sha256": "3a2dc1c842dc13e50bca997e47b97ea5a3d58fcf0b1768b3f4ee2429dae6a73d",
+    "triangles": 52
+  },
+  "pirate-log": {
+    "pack": "Pirate Island (Unity, Godot , FBX)",
+    "archive": "Pirate Island.zip",
+    "entry": "Pirate Island/gLTF/SM_WodenLog_A.glb",
+    "sha256": "1ce7966ce33550f1c02553700dfdd35add7b7db71bd9a4fac3809bd56adac2a5",
+    "triangles": 220
+  }
+}
