@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="data:," />
+    <!-- 게임 글꼴 '주아'(2026-10-16 게임에 직접 넣음, 외부 요청 없음): 자주 쓰는 한글 2,350자 + 게임 글만 남긴 파일(tools/font/jua_subset.py). 사용 허가 public/fonts/OFL.txt. -->
+    <link rel="preload" href="./fonts/jua-subset.woff2" as="font" type="font/woff2" crossorigin />
+    <style>@font-face{font-family:Jua;src:url(./fonts/jua-subset.woff2)format("woff2");font-display:swap}#loading{z-index:100;color:#f3ead6;text-align:center;background:#0d1114;place-content:center;justify-items:center;gap:18px;padding:24px;font-family:Jua,Malgun Gothic,system-ui,sans-serif;transition:opacity .45s;display:grid;position:fixed;inset:0}#loading.done{opacity:0;pointer-events:none}#loading-runner{image-rendering:auto;background:url(./assets/ui/loading-run.png) 0 0/800% 100% no-repeat;width:120px;height:120px;animation:.71s steps(8,end) infinite loading-run}@keyframes loading-run{to{background-position:114.286% 0}}#loading-runner:after{content:"";background:#ffffff14;border-radius:50%;width:70px;height:10px;margin:108px auto 0;display:block}#loading h1{letter-spacing:.02em;margin:0;font-size:34px;font-weight:400}#loading-bar{background:#ffffff1c;border-radius:99px;width:min(360px,72vw);height:10px;overflow:hidden}#loading-bar span{border-radius:inherit;background:linear-gradient(90deg,#f0a05a,#ffd27a);width:4%;height:100%;transition:width .3s;display:block}#loading-tip{color:#c9c0aa;word-break:keep-all;max-width:34em;min-height:3em;margin:6px 0 0;font-size:17px;line-height:1.5;transition:opacity .35s}#loading-tip b{color:#ffd27a;margin-right:.4em;font-weight:400}@media (prefers-reduced-motion:reduce){#loading-runner{animation:none}}</style>
+    <title>무인도 · 나의 작은 섬</title>
+    <script type="module" crossorigin src="./assets/game-BO1eo7fS.js"></script>
+    <link rel="modulepreload" crossorigin href="./assets/modulepreload-polyfill-P2Xu9kJm.js">
+    <link rel="modulepreload" crossorigin href="./assets/daylight-CBTxEEiH.js">
+    <link rel="modulepreload" crossorigin href="./assets/three.core-CRphnWGP.js">
+    <link rel="modulepreload" crossorigin href="./assets/three.module-D-LNrq6Z.js">
+    <link rel="modulepreload" crossorigin href="./assets/horizon-D-BsanvY.js">
+    <link rel="modulepreload" crossorigin href="./assets/sky-3MH62_et.js">
+    <link rel="modulepreload" crossorigin href="./assets/player-DV7ijujK.js">
+    <link rel="modulepreload" crossorigin href="./assets/terrain-DcuYJdrg.js">
+    <link rel="modulepreload" crossorigin href="./assets/save-C0zA1RGi.js">
+    <link rel="modulepreload" crossorigin href="./assets/highland-DWtyzVGS.js">
+    <link rel="modulepreload" crossorigin href="./assets/camera-D0TO9ZXr.js">
+    <link rel="modulepreload" crossorigin href="./assets/camera-tzDKBQqI.js">
+    <link rel="modulepreload" crossorigin href="./assets/pager-PKehnmHl.js">
+    <link rel="modulepreload" crossorigin href="./assets/tutorial-DZdXVQs8.js">
+    <link rel="modulepreload" crossorigin href="./assets/_virtual_asset-list-CtT7nCNC.js">
+    <link rel="stylesheet" crossorigin href="./assets/pager-CCa-a-GG.css">
+    <link rel="stylesheet" crossorigin href="./assets/game-DKQb1FhK.css">
+  </head>
+  <body>
+    <div id="loading" role="status" aria-live="polite" aria-label="섬을 불러오는 중">
+      <div id="loading-runner" aria-hidden="true"></div>
+      <h1>나의 작은 섬</h1>
+      <div id="loading-bar" aria-hidden="true"><span></span></div>
+      <p id="loading-tip"><b>팁</b>E나 스페이스를 누르고 있으면 계속 채집해요.</p>
+    </div>
+    <main id="app"></main>
+  </body>
+</html>
