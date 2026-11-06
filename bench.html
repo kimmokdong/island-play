@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>벤치 메뉴</title>
+<style>
+:root { color-scheme:dark; }
+* { box-sizing:border-box; }
+body { margin:0; background:#0f1a1f; color:#eef5f3; font:16px/1.5 sans-serif; }
+main { max-width:860px; margin:0 auto; padding:20px 16px 48px; }
+h1 { margin:0 0 4px; font-size:24px; }
+h2 { margin:24px 0 2px; font-size:18px; }
+p { margin:0 0 10px; color:#a9bcb8; }
+.grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(240px,1fr)); gap:10px; }
+.run, button { display:block; width:100%; padding:13px 14px; border:1px solid #33514a; border-radius:9px; background:#1a2c30; color:#eef5f3; font:inherit; font-weight:700; text-align:left; text-decoration:none; cursor:pointer; }
+.run:hover, .run:focus-visible, button:hover, button:focus-visible { border-color:#2fd6b5; outline:2px solid #2fd6b5; outline-offset:1px; }
+.run small { display:block; color:#a9bcb8; font-weight:400; }
+.main { background:#17463d; border-color:#2fd6b5; }
+.tools { display:flex; flex-wrap:wrap; gap:8px; margin:10px 0; }
+.tools button { width:auto; }
+ul { margin:0; padding:0; list-style:none; }
+li { padding:9px 0; border-top:1px solid #29403c; }
+li b { display:block; }
+li span { color:#a9bcb8; font-size:14px; }
+#note { color:#2fd6b5; min-height:1.5em; }
+</style>
+</head>
+<body>
+<main>
+<h1>크롬북 벤치 메뉴</h1>
+<p>충전기를 꽂고 다른 탭을 닫아 주세요. 단추를 누르면 혼자 돌아가고, 끝나면 '벤치 메뉴로' 단추가 나와요. 진짜 저장 데이터는 건드리지 않아요.</p>
+
+<h2>LOW+ 잎 카드 재기 (약 10분)</h2>
+<p>숲과 들판에서 LOW+ 잎 카드를 85%, 70%, 60%로 줄였을 때와 풀, 받는 그림자의 비용을 재요. 도는 동안 위쪽 띠에 지금 조건이 나오니 겉모습도 봐 주세요.</p>
+<div class="grid" id="plus"></div>
+
+<h2>숲 줄일 후보 재기 (약 4분)</h2>
+<p>잎 카드를 줄이거나 해상도를 조금 낮추면 얼마나 빨라지는지, 풀과 나무는 얼마나 드는지 재요. 도는 동안 위쪽 띠에 지금 조건이 나오니 겉모습도 봐 주세요.</p>
+<div class="grid" id="cut"></div>
+
+<h2>숲 원인 찾기 (약 3분)</h2>
+<p>숲에서 잎 카드, 땅, 물, 해상도를 번갈아 바꾸며 재요.</p>
+<div class="grid" id="diag"></div>
+
+<h2>전체 벤치 (약 5분)</h2>
+<p>여덟 지역을 차례로 돌며 재요.</p>
+<div class="grid" id="full"></div>
+
+<h2>오래 돌리기 (10분)</h2>
+<p>숲을 되풀이해 돌며 느려지거나 메모리가 늘어나는지 봐요.</p>
+<div class="grid" id="soak"></div>
+
+<h2>눈으로 보기</h2>
+<p>게임이 그대로 열려요. 벤치가 아니라 직접 걸어 보고 겉모습을 보는 거예요.</p>
+<div class="grid" id="play"></div>
+
+<h2>결과</h2>
+<p>끝난 벤치가 여기에 쌓여요. '전부 복사'를 누르고 에이전트에게 붙여 주세요.</p>
+<div class="tools"><button id="copy" type="button" class="main">전부 복사</button><button id="save" type="button">파일로 저장</button><button id="clear" type="button">결과 지우기</button></div>
+<div id="note" role="status"></div>
+<ul id="list"></ul>
+</main>
+<script>
+const KEY = 'island-bench-results';
+const addRun = (host, href, title, hint, main) => { const a = document.createElement('a'); a.className = 'run' + (main ? ' main' : ''); a.href = href; a.textContent = title; const s = document.createElement('small'); s.textContent = hint; a.append(s); document.getElementById(host).append(a); };
+const bench = (gfx, label, extra = '') => './?check=1&bench=1&gfx=' + gfx + '&benchlabel=' + encodeURIComponent(label) + extra;
+addRun('plus', bench('lowplus', 'LOW+ 잎 카드', '&benchmode=plus'), 'LOW+ 잎 카드 재기', '이걸 눌러 주세요', true);
+addRun('cut', bench('low', 'LOW 숲 후보', '&benchmode=cut'), 'LOW로 숲 후보 재기', '2026-11-05에 쟀어요');
+addRun('diag', bench('low', 'LOW 숲 원인', '&benchmode=diag'), 'LOW로 숲 원인 찾기', '2026-11-05에 쟀어요');
+addRun('diag', bench('lowplus', 'LOW+ 숲 원인', '&benchmode=diag'), 'LOW+로 숲 원인 찾기', '2026-11-05에 쟀어요');
+addRun('full', bench('low', 'LOW 전체'), 'LOW', '가장 가벼움');
+addRun('full', bench('lowplus', 'LOW+ 전체'), 'LOW+', '지금 기본 화질');
+addRun('full', bench('lowplus', 'LOW+ 30fps 상한', '&fpscap=30'), 'LOW+ · 30fps 상한', '흔들림이 줄어드는지');
+addRun('full', bench('low', 'LOW 30fps 상한', '&fpscap=30'), 'LOW · 30fps 상한', '흔들림이 줄어드는지');
+addRun('soak', bench('low', 'LOW 오래 돌리기', '&benchonly=forest&benchmin=10'), 'LOW 숲 10분', '');
+addRun('soak', bench('lowplus', 'LOW+ 오래 돌리기', '&benchonly=forest&benchmin=10'), 'LOW+ 숲 10분', '');
+addRun('play', './?gfx=low', 'LOW로 게임 열기', '진짜 저장으로 열려요');
+addRun('play', './?gfx=lowplus', 'LOW+로 게임 열기', '진짜 저장으로 열려요');
+const read = () => { try { return JSON.parse(localStorage.getItem(KEY) || '[]'); } catch { return []; } };
+const note = text => { document.getElementById('note').textContent = text; };
+const draw = () => {
+  const list = read(), box = document.getElementById('list');
+  box.textContent = '';
+  if (!list.length) { const li = document.createElement('li'); li.textContent = '아직 결과가 없어요.'; box.append(li); }
+  for (const item of [...list].reverse()) { const li = document.createElement('li'), b = document.createElement('b'), s = document.createElement('span'); b.textContent = item.label + ' · ' + new Date(item.at).toLocaleTimeString('ko-KR', { hour: '2-digit', minute: '2-digit' }); s.textContent = item.summary; li.append(b, s); box.append(li); }
+  for (const id of ['copy', 'save', 'clear']) document.getElementById(id).disabled = !list.length;
+};
+document.getElementById('copy').onclick = () => navigator.clipboard.writeText(JSON.stringify(read())).then(() => note('복사했어요. 에이전트에게 붙여 주세요.'), () => note('복사하지 못했어요. 파일로 저장을 눌러 주세요.'));
+document.getElementById('save').onclick = () => { const a = document.createElement('a'); a.href = URL.createObjectURL(new Blob([JSON.stringify(read())], { type: 'application/json' })); a.download = 'island-bench-' + Date.now() + '.json'; a.click(); };
+document.getElementById('clear').onclick = () => { if (confirm('쌓인 결과를 지울까요?')) { localStorage.removeItem(KEY); note('지웠어요.'); draw(); } };
+draw();
+</script>
+</body>
+</html>

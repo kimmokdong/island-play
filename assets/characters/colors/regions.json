@@ -1,0 +1,30 @@
+{
+  "boy": {
+    "sourceSha256": "e04e935770ceda54a77710f9e7c71ced1713b9f3f18e4e1e21e75be32982890f",
+    "maskSha256": "90ebbdcf9d2a54b45f932de511de41ce2c85d505bf44d0264e62d9fe37db5bbd",
+    "hairSha256": "68ec5c8c72b9df1c419c3f8e6e27fd9995255ceb0a878745c2ce746639ef8cf8",
+    "topSha256": "f486928e4c7636181841c96373d4c2374b43c46194bf9d19c8157c7f05ac0a09",
+    "vertexCount": 6222,
+    "hairVertexCount": 1776,
+    "topVertexCount": 395,
+    "luminance": [
+      0.04280300112105906,
+      0.6586291788458823,
+      0.11678851856738329
+    ]
+  },
+  "girl": {
+    "sourceSha256": "a75030c9fedb2b4cdf968747b65634fdb8fcb8d75a6ec9cee418953cf9cf5764",
+    "maskSha256": "32fb4a8566523840d8912d394dcddbf82383b759b71e37290c8e5ed8acd24e77",
+    "hairSha256": "bdf93f8982d8164930d543bc81ed00765017a56ff506511740d5ee0682043ffc",
+    "topSha256": "47f2a7f2be00da90ffa80fb272c1e86b5279a6c23c8d8628df96d959516dceec",
+    "vertexCount": 5844,
+    "hairVertexCount": 1464,
+    "topVertexCount": 396,
+    "luminance": [
+      0.0691209280334413,
+      0.7380984666109084,
+      0.1202930330812931
+    ]
+  }
+}
