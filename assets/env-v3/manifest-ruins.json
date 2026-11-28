@@ -1,0 +1,591 @@
+[
+ {
+  "id": "ruins.wall.a",
+  "old": "env/ruins-wall-a.glb",
+  "variants": [
+   "env-v3/ruins-wall-a-v1.glb",
+   "env-v3/ruins-wall-a-v2.glb",
+   "env-v3/ruins-wall-a-v3.glb"
+  ],
+  "tris": {
+   "old": 42,
+   "v1": 1098,
+   "v2": 1092,
+   "v3": 1086,
+   "low": 42
+  },
+  "notes": "Same footprint/height/snap faces as ruins_kit; vertex colours (COLOR_0) instead of palette UVs.",
+  "materials": [
+   1,
+   5,
+   6
+  ],
+  "low": "env-v3/ruins-wall-a-low.glb"
+ },
+ {
+  "id": "ruins.wall.b",
+  "old": "env/ruins-wall-b.glb",
+  "variants": [
+   "env-v3/ruins-wall-b-v1.glb",
+   "env-v3/ruins-wall-b-v2.glb",
+   "env-v3/ruins-wall-b-v3.glb"
+  ],
+  "tris": {
+   "old": 62,
+   "v1": 1145,
+   "v2": 1132,
+   "v3": 1249,
+   "low": 62
+  },
+  "notes": "Same footprint/height/snap faces as ruins_kit; vertex colours (COLOR_0) instead of palette UVs.",
+  "materials": [
+   1,
+   5,
+   6
+  ],
+  "low": "env-v3/ruins-wall-b-low.glb"
+ },
+ {
+  "id": "ruins.wall.c",
+  "old": "env/ruins-wall-c.glb",
+  "variants": [
+   "env-v3/ruins-wall-c-v1.glb",
+   "env-v3/ruins-wall-c-v2.glb",
+   "env-v3/ruins-wall-c-v3.glb"
+  ],
+  "tris": {
+   "old": 120,
+   "v1": 1175,
+   "v2": 1163,
+   "v3": 1192,
+   "low": 120
+  },
+  "notes": "Same footprint/height/snap faces as ruins_kit; vertex colours (COLOR_0) instead of palette UVs.",
+  "materials": [
+   1,
+   5,
+   6
+  ],
+  "low": "env-v3/ruins-wall-c-low.glb"
+ },
+ {
+  "id": "ruins.wall.damp",
+  "old": "env/ruins-wall-damp.glb",
+  "variants": [
+   "env-v3/ruins-wall-damp-v1.glb",
+   "env-v3/ruins-wall-damp-v2.glb",
+   "env-v3/ruins-wall-damp-v3.glb"
+  ],
+  "tris": {
+   "old": 46,
+   "v1": 1593,
+   "v2": 1486,
+   "v3": 1556,
+   "low": 46
+  },
+  "notes": "Same footprint/height/snap faces as ruins_kit; vertex colours (COLOR_0) instead of palette UVs.",
+  "materials": [
+   1,
+   5,
+   6
+  ],
+  "low": "env-v3/ruins-wall-damp-low.glb"
+ },
+ {
+  "id": "ruins.pier",
+  "old": "env/ruins-pier.glb",
+  "variants": [
+   "env-v3/ruins-pier-v1.glb",
+   "env-v3/ruins-pier-v2.glb",
+   "env-v3/ruins-pier-v3.glb"
+  ],
+  "tris": {
+   "old": 30,
+   "v1": 867,
+   "v2": 851,
+   "v3": 855,
+   "low": 30
+  },
+  "notes": "Same footprint/height/snap faces as ruins_kit; vertex colours (COLOR_0) instead of palette UVs.",
+  "materials": [
+   1,
+   5
+  ],
+  "low": "env-v3/ruins-pier-low.glb"
+ },
+ {
+  "id": "ruins.column",
+  "old": "env/ruins-column.glb",
+  "variants": [
+   "env-v3/ruins-column-v1.glb",
+   "env-v3/ruins-column-v2.glb",
+   "env-v3/ruins-column-v3.glb"
+  ],
+  "tris": {
+   "old": 92,
+   "v1": 793,
+   "v2": 755,
+   "v3": 807,
+   "low": 92
+  },
+  "notes": "Same footprint/height/snap faces as ruins_kit; vertex colours (COLOR_0) instead of palette UVs.",
+  "materials": [
+   1,
+   5
+  ],
+  "low": "env-v3/ruins-column-low.glb"
+ },
+ {
+  "id": "ruins.column.broken",
+  "old": "env/ruins-column-broken.glb",
+  "variants": [
+   "env-v3/ruins-column-broken.glb"
+  ],
+  "tris": {
+   "old": 90,
+   "model": 720,
+   "low": 90
+  },
+  "notes": "Same footprint/height/snap faces as ruins_kit; vertex colours (COLOR_0) instead of palette UVs. Placed twice: one model.",
+  "materials": [
+   1,
+   5
+  ],
+  "low": "env-v3/ruins-column-broken-low.glb"
+ },
+ {
+  "id": "ruins.floor.a",
+  "old": "env/ruins-floor-a.glb",
+  "variants": [
+   "env-v3/ruins-floor-a-v1.glb",
+   "env-v3/ruins-floor-a-v2.glb",
+   "env-v3/ruins-floor-a-v3.glb"
+  ],
+  "tris": {
+   "old": 6,
+   "v1": 106,
+   "v2": 186,
+   "v3": 246,
+   "low": 6
+  },
+  "notes": "Same footprint/height/snap faces as ruins_kit; vertex colours (COLOR_0) instead of palette UVs. Floors are rotated in 90-degree steps in the game; every edge is the same rounded flagstone edge.",
+  "materials": [
+   1
+  ],
+  "low": "env-v3/ruins-floor-a-low.glb"
+ },
+ {
+  "id": "ruins.floor.b",
+  "old": "env/ruins-floor-b.glb",
+  "variants": [
+   "env-v3/ruins-floor-b-v1.glb",
+   "env-v3/ruins-floor-b-v2.glb",
+   "env-v3/ruins-floor-b-v3.glb"
+  ],
+  "tris": {
+   "old": 20,
+   "v1": 189,
+   "v2": 200,
+   "v3": 191,
+   "low": 20
+  },
+  "notes": "Same footprint/height/snap faces as ruins_kit; vertex colours (COLOR_0) instead of palette UVs. Floors are rotated in 90-degree steps in the game; every edge is the same rounded flagstone edge.",
+  "materials": [
+   1,
+   6
+  ],
+  "low": "env-v3/ruins-floor-b-low.glb"
+ },
+ {
+  "id": "ruins.floor.c",
+  "old": "env/ruins-floor-c.glb",
+  "variants": [
+   "env-v3/ruins-floor-c-v1.glb",
+   "env-v3/ruins-floor-c-v2.glb",
+   "env-v3/ruins-floor-c-v3.glb"
+  ],
+  "tris": {
+   "old": 14,
+   "v1": 181,
+   "v2": 262,
+   "v3": 344,
+   "low": 14
+  },
+  "notes": "Same footprint/height/snap faces as ruins_kit; vertex colours (COLOR_0) instead of palette UVs. Floors are rotated in 90-degree steps in the game; every edge is the same rounded flagstone edge.",
+  "materials": [
+   1,
+   5
+  ],
+  "low": "env-v3/ruins-floor-c-low.glb"
+ },
+ {
+  "id": "ruins.rubble.a",
+  "old": "env/ruins-rubble-a.glb",
+  "variants": [
+   "env-v3/ruins-rubble-a-v1.glb",
+   "env-v3/ruins-rubble-a-v2.glb",
+   "env-v3/ruins-rubble-a-v3.glb"
+  ],
+  "tris": {
+   "old": 104,
+   "v1": 1128,
+   "v2": 1076,
+   "v3": 1143,
+   "low": 104
+  },
+  "notes": "Same footprint/height/snap faces as ruins_kit; vertex colours (COLOR_0) instead of palette UVs.",
+  "materials": [
+   2,
+   5
+  ],
+  "low": "env-v3/ruins-rubble-a-low.glb"
+ },
+ {
+  "id": "ruins.rubble.b",
+  "old": "env/ruins-rubble-b.glb",
+  "variants": [
+   "env-v3/ruins-rubble-b-v1.glb",
+   "env-v3/ruins-rubble-b-v2.glb",
+   "env-v3/ruins-rubble-b-v3.glb"
+  ],
+  "tris": {
+   "old": 80,
+   "v1": 757,
+   "v2": 761,
+   "v3": 755,
+   "low": 80
+  },
+  "notes": "Same footprint/height/snap faces as ruins_kit; vertex colours (COLOR_0) instead of palette UVs.",
+  "materials": [
+   2,
+   5
+  ],
+  "low": "env-v3/ruins-rubble-b-low.glb"
+ },
+ {
+  "id": "ruins.doorframe",
+  "old": "env/ruins-doorframe.glb",
+  "variants": [
+   "env-v3/ruins-doorframe-v1.glb",
+   "env-v3/ruins-doorframe-v2.glb",
+   "env-v3/ruins-doorframe-v3.glb"
+  ],
+  "tris": {
+   "old": 96,
+   "v1": 2329,
+   "v2": 2244,
+   "v3": 2355,
+   "low": 96
+  },
+  "notes": "Same footprint/height/snap faces as ruins_kit; vertex colours (COLOR_0) instead of palette UVs. Inner faces stay at x=+-1.65 (3.3 m opening for the 3.28 m door).",
+  "materials": [
+   1,
+   5
+  ],
+  "low": "env-v3/ruins-doorframe-low.glb"
+ },
+ {
+  "id": "ruins.lintel",
+  "old": "env/ruins-lintel.glb",
+  "variants": [
+   "env-v3/ruins-lintel-v1.glb",
+   "env-v3/ruins-lintel-v2.glb",
+   "env-v3/ruins-lintel-v3.glb"
+  ],
+  "tris": {
+   "old": 48,
+   "v1": 621,
+   "v2": 603,
+   "v3": 631,
+   "low": 48
+  },
+  "notes": "Same footprint/height/snap faces as ruins_kit; vertex colours (COLOR_0) instead of palette UVs. Underside stays at 2.45 (game cuts lintels away between camera and player).",
+  "materials": [
+   0,
+   1,
+   5
+  ],
+  "low": "env-v3/ruins-lintel-low.glb"
+ },
+ {
+  "id": "ruins.door",
+  "old": "env/ruins-door.glb",
+  "variants": [
+   "env-v3/ruins-door-v1.glb",
+   "env-v3/ruins-door-v2.glb",
+   "env-v3/ruins-door-v3.glb"
+  ],
+  "tris": {
+   "old": 164,
+   "v1": 819,
+   "v2": 818,
+   "v3": 822,
+   "low": 164
+  },
+  "notes": "Same footprint/height/snap faces as ruins_kit; vertex colours (COLOR_0) instead of palette UVs. Decorated on both faces; slides down 2.45 m in the game.",
+  "materials": [
+   0,
+   1
+  ],
+  "low": "env-v3/ruins-door-low.glb"
+ },
+ {
+  "id": "ruins.mural",
+  "old": "env/ruins-mural.glb",
+  "variants": [
+   "env-v3/ruins-mural.glb"
+  ],
+  "tris": {
+   "old": 132,
+   "model": 1119,
+   "low": 132
+  },
+  "notes": "Same footprint/height/snap faces as ruins_kit; vertex colours (COLOR_0) instead of palette UVs. Picture panels kept flat at y=-0.225 so the game's glyph overlay (2.5 cm in front) never clips.",
+  "materials": [
+   0,
+   1,
+   5
+  ],
+  "low": "env-v3/ruins-mural-low.glb"
+ },
+ {
+  "id": "ruins.steps",
+  "old": "env/ruins-steps.glb",
+  "variants": [
+   "env-v3/ruins-steps.glb"
+  ],
+  "tris": {
+   "old": 56,
+   "model": 1112,
+   "low": 56
+  },
+  "notes": "Same footprint/height/snap faces as ruins_kit; vertex colours (COLOR_0) instead of palette UVs.",
+  "materials": [
+   1,
+   5
+  ],
+  "low": "env-v3/ruins-steps-low.glb"
+ },
+ {
+  "id": "ruins.collapse",
+  "old": "env/ruins-collapse.glb",
+  "variants": [
+   "env-v3/ruins-collapse.glb"
+  ],
+  "tris": {
+   "old": 140,
+   "model": 1150,
+   "low": 140
+  },
+  "notes": "Same footprint/height/snap faces as ruins_kit; vertex colours (COLOR_0) instead of palette UVs.",
+  "materials": [
+   1,
+   3,
+   5
+  ],
+  "low": "env-v3/ruins-collapse-low.glb"
+ },
+ {
+  "id": "ruins.board",
+  "old": "env/ruins-board.glb",
+  "variants": [
+   "env-v3/ruins-board-v1.glb",
+   "env-v3/ruins-board-v2.glb",
+   "env-v3/ruins-board-v3.glb"
+  ],
+  "tris": {
+   "old": 168,
+   "v1": 1022,
+   "v2": 1043,
+   "v3": 992,
+   "low": 168
+  },
+  "notes": "Same footprint/height/snap faces as ruins_kit; vertex colours (COLOR_0) instead of palette UVs. Battery terminals kept at (0.77/0.93, 0.42, z 0.1): the game's wires start there. Interactive: warmer wood/copper.",
+  "materials": [
+   0,
+   1,
+   4,
+   8
+  ],
+  "low": "env-v3/ruins-board-low.glb"
+ },
+ {
+  "id": "ruins.bedroll",
+  "old": "env/ruins-bedroll.glb",
+  "variants": [
+   "env-v3/ruins-bedroll.glb"
+  ],
+  "tris": {
+   "old": 84,
+   "model": 760,
+   "low": 84
+  },
+  "notes": "Same footprint/height/snap faces as ruins_kit; vertex colours (COLOR_0) instead of palette UVs.",
+  "materials": [
+   9
+  ],
+  "low": "env-v3/ruins-bedroll-low.glb"
+ },
+ {
+  "id": "ruins.shelf",
+  "old": "env/ruins-shelf.glb",
+  "variants": [
+   "env-v3/ruins-shelf.glb"
+  ],
+  "tris": {
+   "old": 96,
+   "model": 542,
+   "low": 96
+  },
+  "notes": "Same footprint/height/snap faces as ruins_kit; vertex colours (COLOR_0) instead of palette UVs. Plank tops stay at 1.025 / 1.525 (bottles are placed there).",
+  "materials": [
+   4,
+   8
+  ],
+  "low": "env-v3/ruins-shelf-low.glb"
+ },
+ {
+  "id": "ruins.bracket",
+  "old": "env/ruins-bracket.glb",
+  "variants": [
+   "env-v3/ruins-bracket-v1.glb",
+   "env-v3/ruins-bracket-v2.glb",
+   "env-v3/ruins-bracket-v3.glb"
+  ],
+  "tris": {
+   "old": 36,
+   "v1": 244,
+   "v2": 244,
+   "v3": 246,
+   "low": 36
+  },
+  "notes": "Same footprint/height/snap faces as ruins_kit; vertex colours (COLOR_0) instead of palette UVs. Hook end stays at (0, 2.1, 0.36): the lamp hangs from it.",
+  "materials": [
+   8
+  ],
+  "low": "env-v3/ruins-bracket-low.glb"
+ },
+ {
+  "id": "building.ruinsLamp",
+  "old": "env/building-circuitLamp-wallLamp.glb",
+  "variants": [
+   "env-v3/building-circuitLamp-wallLamp-v1.glb",
+   "env-v3/building-circuitLamp-wallLamp-v2.glb",
+   "env-v3/building-circuitLamp-wallLamp-v3.glb"
+  ],
+  "tris": {
+   "old": 584,
+   "v1": 1008,
+   "v2": 1008,
+   "v3": 984,
+   "low": 566
+  },
+  "notes": "Glass is bluish (b >= r) and brass warm (r > b): facility-power-view lights only bluish texels, ruins tint the whole instance.",
+  "materials": [
+   0,
+   8
+  ],
+  "low": "env-v3/building-circuitLamp-wallLamp-low.glb"
+ },
+ {
+  "id": "building.ruinsCrate",
+  "old": "env/drop-crate.glb",
+  "variants": [
+   "env-v3/drop-crate-v1.glb",
+   "env-v3/drop-crate-v2.glb",
+   "env-v3/drop-crate-v3.glb"
+  ],
+  "tris": {
+   "old": 180,
+   "v1": 876,
+   "v2": 1034,
+   "v3": 868,
+   "low": 180
+  },
+  "notes": "Also the loot-drop bundle for parts/devices: same 0.34 m height (crates stack at y 0.58 x1.7 scale) and footprint.",
+  "materials": [
+   4,
+   8,
+   9
+  ],
+  "low": "env-v3/drop-crate-low.glb"
+ },
+ {
+  "id": "building.ruinsVinegar",
+  "old": "env/building-ruins-bottleVinegar.glb",
+  "variants": [
+   "env-v3/building-ruins-bottleVinegar.glb"
+  ],
+  "tris": {
+   "old": 568,
+   "model": 514,
+   "low": 514
+  },
+  "notes": "Also reused as the vinegar drop item.",
+  "materials": [
+   0,
+   4,
+   9
+  ],
+  "low": "env-v3/building-ruins-bottleVinegar-low.glb"
+ },
+ {
+  "id": "building.ruinsIndicator",
+  "old": "env/building-ruins-bottleIndicator.glb",
+  "variants": [
+   "env-v3/building-ruins-bottleIndicator.glb"
+  ],
+  "tris": {
+   "old": 606,
+   "model": 514,
+   "low": 514
+  },
+  "notes": "Also reused as the indicator drop item.",
+  "materials": [
+   0,
+   4,
+   9
+  ],
+  "low": "env-v3/building-ruins-bottleIndicator-low.glb"
+ },
+ {
+  "id": "building.ruinsLime",
+  "old": "env/building-ruins-limestone.glb",
+  "variants": [
+   "env-v3/building-ruins-limestone.glb"
+  ],
+  "tris": {
+   "old": 2499,
+   "model": 1768,
+   "low": 1454
+  },
+  "notes": "Story prop: <= 1.2x old triangles.",
+  "materials": [
+   1
+  ],
+  "low": "env-v3/building-ruins-limestone-low.glb"
+ },
+ {
+  "id": "building.workshop",
+  "old": "env/building-workshop.glb",
+  "variants": [
+   "env-v3/building-workshop.glb"
+  ],
+  "tris": {
+   "old": 7965,
+   "model": 6480,
+   "low": 3880
+  },
+  "notes": "Story prop: <= 1.2x old. Bench top at 1.10 (old 1.08-1.12): ruins-view raycasts it to place the desk lamp (-1.15, z 0.65) and canteen (0.95, z 0.6).",
+  "materials": [
+   0,
+   2,
+   4,
+   5,
+   7,
+   8,
+   9
+  ],
+  "low": "env-v3/building-workshop-low.glb"
+ }
+]

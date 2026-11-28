@@ -1,0 +1,1 @@
+export{t as loadGfx}from"./gfx-BGFs2c9y.js";

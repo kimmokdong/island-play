@@ -1,0 +1,188 @@
+[
+  {
+    "id": "maple.fallen",
+    "old": null,
+    "variants": [
+      "env-v3/maple.fallen-v1.glb",
+      "env-v3/maple.fallen-v2.glb",
+      "env-v3/maple.fallen-v3.glb"
+    ],
+    "low": "env-v3/maple.fallen-low.glb",
+    "tris": {
+      "old": 2,
+      "v1": 5,
+      "v2": 5,
+      "v3": 5,
+      "low": 2
+    },
+    "notes": "Folded, three-lobed leaf, instanced at the 3,000 original placements. Triangle counts are per leaf.",
+    "materials": [
+      7
+    ]
+  },
+  {
+    "id": "glow.mushroom",
+    "old": null,
+    "variants": [
+      "env-v3/glow.mushroom-v1.glb",
+      "env-v3/glow.mushroom-v2.glb",
+      "env-v3/glow.mushroom-v3.glb"
+    ],
+    "low": "env-v3/glow.mushroom-low.glb",
+    "tris": {
+      "old": 42,
+      "v1": 246,
+      "v2": 246,
+      "v3": 246,
+      "low": 38
+    },
+    "notes": "Bent stem, creased underside and scalloped ochre rim. The game uses the same silhouette for its night glow.",
+    "materials": [
+      10
+    ]
+  },
+  {
+    "id": "glow.root",
+    "old": null,
+    "variants": [
+      "env-v3/glow.root-v1.glb",
+      "env-v3/glow.root-v2.glb",
+      "env-v3/glow.root-v3.glb"
+    ],
+    "low": "env-v3/glow.root-low.glb",
+    "tris": {
+      "old": 20,
+      "v1": 96,
+      "v2": 96,
+      "v3": 96,
+      "low": 16
+    },
+    "notes": "Fluted bark strip. The game maps the strip to the original curving, ground-following path.",
+    "materials": [
+      3
+    ]
+  },
+  {
+    "id": "ice.shard",
+    "old": null,
+    "variants": [
+      "env-v3/ice.shard-v1.glb",
+      "env-v3/ice.shard-v2.glb",
+      "env-v3/ice.shard-v3.glb"
+    ],
+    "low": "env-v3/ice.shard-low.glb",
+    "tris": {
+      "old": 15,
+      "v1": 56,
+      "v2": 56,
+      "v3": 56,
+      "low": 12
+    },
+    "notes": "Broken flutes and a hard, lighter tip. Opaque shards keep the cave's torch and cut lighting.",
+    "materials": [
+      11
+    ]
+  },
+  {
+    "id": "ice.crystal",
+    "old": null,
+    "variants": [
+      "env-v3/ice.crystal-v1.glb",
+      "env-v3/ice.crystal-v2.glb",
+      "env-v3/ice.crystal-v3.glb"
+    ],
+    "low": "env-v3/ice.crystal-low.glb",
+    "tris": {
+      "old": 8,
+      "v1": 40,
+      "v2": 40,
+      "v3": 40,
+      "low": 8
+    },
+    "notes": "Chamfered facets and cyan gradation. The game still composites it additively in the dark.",
+    "materials": [
+      11
+    ]
+  },
+  {
+    "id": "building.wreck",
+    "old": "env/building-wreck.glb",
+    "variants": [
+      "env-v3/building-wreck.glb"
+    ],
+    "low": "env-v3/building-wreck-low.glb",
+    "tris": {
+      "old": 8000,
+      "v1": 4294,
+      "low": 3048
+    },
+    "notes": "Open timber hull, broken rail, ribbing, torn sail, ropes and rusted fittings.",
+    "materials": [
+      4,
+      5,
+      8,
+      9
+    ]
+  },
+  {
+    "id": "building.wreckScrapLarge",
+    "old": "env/building-magnetCrane-scrapLarge.glb",
+    "variants": [
+      "env-v3/building-magnetCrane-scrapLarge.glb"
+    ],
+    "low": "env-v3/building-magnetCrane-scrapLarge-low.glb",
+    "tris": {
+      "old": 4999,
+      "v1": 1210,
+      "low": 712
+    },
+    "notes": "Bent plates, iron strips and coiled fragments.",
+    "materials": [
+      8
+    ]
+  },
+  {
+    "id": "building.wreckScrapSmall",
+    "old": "env/building-magnetCrane-scrapSmall.glb",
+    "variants": [
+      "env-v3/building-magnetCrane-scrapSmall-v1.glb",
+      "env-v3/building-magnetCrane-scrapSmall-v2.glb",
+      "env-v3/building-magnetCrane-scrapSmall-v3.glb"
+    ],
+    "low": "env-v3/building-magnetCrane-scrapSmall-low.glb",
+    "tris": {
+      "old": 2446,
+      "v1": 1028,
+      "v2": 1028,
+      "v3": 1028,
+      "low": 544
+    },
+    "notes": "Broken iron plate and thin coils in a smaller heap.",
+    "materials": [
+      8
+    ]
+  },
+  {
+    "id": "building.wreckBottle",
+    "old": "env/building-ruins-bottleWater.glb",
+    "variants": [
+      "env-v3/building-ruins-bottleWater-v1.glb",
+      "env-v3/building-ruins-bottleWater-v2.glb",
+      "env-v3/building-ruins-bottleWater-v3.glb"
+    ],
+    "low": "env-v3/building-ruins-bottleWater-low.glb",
+    "tris": {
+      "old": 538,
+      "v1": 468,
+      "v2": 468,
+      "v3": 468,
+      "low": 184
+    },
+    "notes": "Pale blue opaque glass, raised lip and cork, with a clear face for the game's wave stamp.",
+    "materials": [
+      0,
+      4,
+      9
+    ]
+  }
+]

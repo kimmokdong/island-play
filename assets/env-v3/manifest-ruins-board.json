@@ -1,0 +1,440 @@
+[
+ {
+  "id": "ruins.pc.cell",
+  "old": "",
+  "variants": [
+   "env-v3/ruins-pc-cell.glb"
+  ],
+  "low": "env-v3/ruins-pc-cell-low.glb",
+  "tris": {
+   "budget": 420,
+   "low_budget": 120,
+   "model": 82,
+   "low": 82
+  },
+  "notes": "Instanced up to 49 times per board: keep it light. Top at 0.05.",
+  "materials": [
+   1
+  ],
+  "size": [
+   0.78,
+   0.149,
+   0.78
+  ],
+  "meshes": [
+   "0_ruins_pc_cell"
+  ]
+ },
+ {
+  "id": "ruins.pc.curb",
+  "old": "",
+  "variants": [
+   "env-v3/ruins-pc-curb.glb"
+  ],
+  "low": "env-v3/ruins-pc-curb-low.glb",
+  "tris": {
+   "budget": 420,
+   "low_budget": 120,
+   "model": 89,
+   "low": 89
+  },
+  "notes": "Frame stone, 0.8 m along x.",
+  "materials": [
+   1,
+   8
+  ],
+  "size": [
+   0.796,
+   0.241,
+   0.15
+  ],
+  "meshes": [
+   "0_ruins_pc_curb"
+  ]
+ },
+ {
+  "id": "ruins.pc.corner",
+  "old": "",
+  "variants": [
+   "env-v3/ruins-pc-corner.glb"
+  ],
+  "low": "env-v3/ruins-pc-corner-low.glb",
+  "tris": {
+   "budget": 300,
+   "low_budget": 90,
+   "model": 160,
+   "low": 86
+  },
+  "notes": "",
+  "materials": [
+   1,
+   8
+  ],
+  "size": [
+   0.17,
+   0.307,
+   0.17
+  ],
+  "meshes": [
+   "0_ruins_pc_corner"
+  ]
+ },
+ {
+  "id": "ruins.pc.arm",
+  "old": "",
+  "variants": [
+   "env-v3/ruins-pc-arm.glb"
+  ],
+  "low": "env-v3/ruins-pc-arm-low.glb",
+  "tris": {
+   "budget": 160,
+   "low_budget": 60,
+   "model": 82,
+   "low": 58
+  },
+  "notes": "Half groove, centre -> north edge. Gap cells scale it along y.",
+  "materials": [
+   1,
+   8
+  ],
+  "size": [
+   0.14,
+   0.04,
+   0.4
+  ],
+  "meshes": [
+   "0_ruins_pc_arm"
+  ]
+ },
+ {
+  "id": "ruins.pc.hub",
+  "old": "",
+  "variants": [
+   "env-v3/ruins-pc-hub.glb"
+  ],
+  "low": "env-v3/ruins-pc-hub-low.glb",
+  "tris": {
+   "budget": 120,
+   "low_budget": 40,
+   "model": 104,
+   "low": 42
+  },
+  "notes": "",
+  "materials": [
+   8
+  ],
+  "size": [
+   0.128,
+   0.029,
+   0.128
+  ],
+  "meshes": [
+   "0_ruins_pc_hub"
+  ]
+ },
+ {
+  "id": "ruins.pc.gap",
+  "old": "",
+  "variants": [
+   "env-v3/ruins-pc-gap.glb"
+  ],
+  "low": "env-v3/ruins-pc-gap-low.glb",
+  "tris": {
+   "budget": 300,
+   "low_budget": 110,
+   "model": 222,
+   "low": 106
+  },
+  "notes": "Broken socket; wires north-south.",
+  "materials": [
+   1,
+   8
+  ],
+  "size": [
+   0.28,
+   0.069,
+   0.54
+  ],
+  "meshes": [
+   "0_ruins_pc_gap"
+  ]
+ },
+ {
+  "id": "ruins.pc.battery",
+  "old": "",
+  "variants": [
+   "env-v3/ruins-pc-battery.glb"
+  ],
+  "low": "env-v3/ruins-pc-battery-low.glb",
+  "tris": {
+   "budget": 900,
+   "low_budget": 360,
+   "model": 315,
+   "low": 315
+  },
+  "notes": "+ cap north.",
+  "materials": [
+   0,
+   8,
+   9
+  ],
+  "size": [
+   0.336,
+   0.208,
+   0.514
+  ],
+  "meshes": [
+   "0_ruins_pc_battery"
+  ]
+ },
+ {
+  "id": "ruins.pc.lamp",
+  "old": "",
+  "variants": [
+   "env-v3/ruins-pc-lamp.glb"
+  ],
+  "low": "env-v3/ruins-pc-lamp-low.glb",
+  "tris": {
+   "budget": 1100,
+   "low_budget": 420,
+   "model": 416,
+   "low": 416
+  },
+  "notes": "Beam leaves north. Mesh 1_glow = crystal.",
+  "materials": [
+   0,
+   1,
+   8
+  ],
+  "size": [
+   0.4,
+   0.393,
+   0.4
+  ],
+  "meshes": [
+   "0_ruins_pc_lamp",
+   "1_glow"
+  ]
+ },
+ {
+  "id": "ruins.pc.sensor",
+  "old": "",
+  "variants": [
+   "env-v3/ruins-pc-sensor.glb"
+  ],
+  "low": "env-v3/ruins-pc-sensor-low.glb",
+  "tris": {
+   "budget": 700,
+   "low_budget": 300,
+   "model": 308,
+   "low": 290
+  },
+  "notes": "Mesh 1_glow = crystals.",
+  "materials": [
+   0,
+   1,
+   8
+  ],
+  "size": [
+   0.37,
+   0.3,
+   0.37
+  ],
+  "meshes": [
+   "0_ruins_pc_sensor",
+   "1_glow"
+  ]
+ },
+ {
+  "id": "ruins.pc.pillar",
+  "old": "",
+  "variants": [
+   "env-v3/ruins-pc-pillar.glb"
+  ],
+  "low": "env-v3/ruins-pc-pillar-low.glb",
+  "tris": {
+   "budget": 1100,
+   "low_budget": 380,
+   "model": 313,
+   "low": 313
+  },
+  "notes": "",
+  "materials": [
+   1,
+   5
+  ],
+  "size": [
+   0.46,
+   0.869,
+   0.46
+  ],
+  "meshes": [
+   "0_ruins_pc_pillar"
+  ]
+ },
+ {
+  "id": "ruins.pc.target",
+  "old": "",
+  "variants": [
+   "env-v3/ruins-pc-target.glb"
+  ],
+  "low": "env-v3/ruins-pc-target-low.glb",
+  "tris": {
+   "budget": 1000,
+   "low_budget": 380,
+   "model": 594,
+   "low": 366
+  },
+  "notes": "Mesh 1_glow = sun stone.",
+  "materials": [
+   0,
+   1,
+   8
+  ],
+  "size": [
+   0.56,
+   0.149,
+   0.56
+  ],
+  "meshes": [
+   "0_ruins_pc_target",
+   "1_glow"
+  ]
+ },
+ {
+  "id": "ruins.pc.mirror",
+  "old": "",
+  "variants": [
+   "env-v3/ruins-pc-mirror.glb"
+  ],
+  "low": "env-v3/ruins-pc-mirror-low.glb",
+  "tris": {
+   "budget": 700,
+   "low_budget": 300,
+   "model": 124,
+   "low": 124
+  },
+  "notes": "╱ from (-x,-y) to (+x,+y) in Blender. Mesh 1_glow = plate (drawn unlit).",
+  "materials": [
+   8
+  ],
+  "size": [
+   0.445,
+   0.329,
+   0.45
+  ],
+  "meshes": [
+   "0_ruins_pc_mirror",
+   "1_glow"
+  ]
+ },
+ {
+  "id": "ruins.pc.wood",
+  "old": "",
+  "variants": [
+   "env-v3/ruins-pc-wood.glb"
+  ],
+  "low": "env-v3/ruins-pc-wood-low.glb",
+  "tris": {
+   "budget": 700,
+   "low_budget": 260,
+   "model": 306,
+   "low": 252
+  },
+  "notes": "",
+  "materials": [
+   4,
+   8
+  ],
+  "size": [
+   0.56,
+   0.137,
+   0.42
+  ],
+  "meshes": [
+   "0_ruins_pc_wood"
+  ]
+ },
+ {
+  "id": "ruins.pc.tray",
+  "old": "",
+  "variants": [
+   "env-v3/ruins-pc-tray.glb"
+  ],
+  "low": "env-v3/ruins-pc-tray-low.glb",
+  "tris": {
+   "budget": 1500,
+   "low_budget": 520,
+   "model": 660,
+   "low": 504
+  },
+  "notes": "Slots at Blender y +-0.72, +-0.24; floor 0.06.",
+  "materials": [
+   4,
+   9
+  ],
+  "size": [
+   0.764,
+   0.162,
+   1.964
+  ],
+  "meshes": [
+   "0_ruins_pc_tray"
+  ]
+ },
+ {
+  "id": "ruins.pc.switch",
+  "old": "",
+  "variants": [
+   "env-v3/ruins-pc-switch.glb"
+  ],
+  "low": "env-v3/ruins-pc-switch-low.glb",
+  "tris": {
+   "budget": 900,
+   "low_budget": 320,
+   "model": 280,
+   "low": 280
+  },
+  "notes": "Axle at z 0.13.",
+  "materials": [
+   1,
+   4,
+   8
+  ],
+  "size": [
+   0.42,
+   0.162,
+   0.46
+  ],
+  "meshes": [
+   "0_ruins_pc_switch"
+  ]
+ },
+ {
+  "id": "ruins.pc.lever",
+  "old": "",
+  "variants": [
+   "env-v3/ruins-pc-lever.glb"
+  ],
+  "low": "env-v3/ruins-pc-lever-low.glb",
+  "tris": {
+   "budget": 300,
+   "low_budget": 120,
+   "model": 80,
+   "low": 80
+  },
+  "notes": "Pivot at origin.",
+  "materials": [
+   4,
+   8
+  ],
+  "size": [
+   0.061,
+   0.332,
+   0.057
+  ],
+  "meshes": [
+   "0_ruins_pc_lever"
+  ]
+ }
+]

@@ -1,0 +1,22 @@
+{
+  "set": "sheet-nature",
+  "size": 48,
+  "hotspot": {
+    "arrow": [
+      4,
+      3
+    ],
+    "pointer": [
+      21,
+      3
+    ],
+    "grabbing": [
+      24,
+      24
+    ],
+    "text": [
+      24,
+      24
+    ]
+  }
+}

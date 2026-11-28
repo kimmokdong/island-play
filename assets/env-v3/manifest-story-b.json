@@ -1,0 +1,141 @@
+[
+ {
+  "id": "building.oldCamp",
+  "old": "env/building-oldCamp.glb",
+  "variants": [
+   "env-v3/building-oldCamp.glb"
+  ],
+  "tris": {
+   "old": 5000,
+   "model": 5436,
+   "low": 4850
+  },
+  "notes": "Story prop (Tripo scan before): <= 1.2x old triangles. Same node/mesh name, origin (bottom centre), front (+Z) and footprint. Debris hut (crossed A-frame + ridge pole + ribs + two-sided leaf shingles in staggered rows), fire ring of chipped stones with ash and charred sticks, firewood, a sitting log and the predecessor's small rope-handled box.",
+  "low": "env-v3/building-oldCamp-low.glb",
+  "materials": [
+   2,
+   4,
+   5,
+   6,
+   7,
+   9
+  ]
+ },
+ {
+  "id": "building.predecessorNote",
+  "old": "env/building-predecessorNote.glb",
+  "variants": [
+   "env-v3/building-predecessorNote.glb"
+  ],
+  "tris": {
+   "old": 1200,
+   "model": 992,
+   "low": 992
+  },
+  "notes": "Story prop (Tripo scan before): <= 1.2x old triangles. Same node/mesh name, origin (bottom centre), front (+Z) and footprint. Folded letter (creases, curled corner, torn edge, faded stains), ink handwriting strips and a small ring sketch, paperweight stone. Instanced (InstancedMesh, one part).",
+  "low": "env-v3/building-predecessorNote-low.glb",
+  "materials": [
+   0,
+   2
+  ]
+ },
+ {
+  "id": "building.lookoutCairn",
+  "old": "env/land-stoneCairn.glb",
+  "variants": [
+   "env-v3/land-stoneCairn-v1.glb",
+   "env-v3/land-stoneCairn-v2.glb",
+   "env-v3/land-stoneCairn-v3.glb"
+  ],
+  "tris": {
+   "old": 1499,
+   "v1": 1706,
+   "v2": 1760,
+   "v3": 1774,
+   "low": 1454
+  },
+  "notes": "Placed 7x (lookout, old cairn x2.0 scale with a moss tint, trail cairns x0.65 with a pointer stone at local (0, 1.35, 0.3), highland, legacy, night arrow): height kept at 1.50 so the trail pointer still sits on top. Stacked flat stones with chisel facets, moss on the lower stones. Story prop rule: <= 1.2x old.",
+  "low": "env-v3/land-stoneCairn-low.glb",
+  "materials": [
+   2,
+   5
+  ]
+ },
+ {
+  "id": "building.seaCaveMouth",
+  "old": "env/land-seaCaveMouth.glb",
+  "variants": [
+   "env-v3/land-seaCaveMouth.glb"
+  ],
+  "tris": {
+   "old": 3000,
+   "model": 3323,
+   "low": 2909
+  },
+  "notes": "Story prop (Tripo scan before): <= 1.2x old triangles. Same node/mesh name, origin (bottom centre), front (+Z) and footprint. Rock arch: two pillars, lintel slab, back dome, foot boulders, dark inward throat. Opening stays centred facing +Z (the game puts a black plane at the box middle - 0.2 and scales the model; width/height kept).",
+  "low": "env-v3/land-seaCaveMouth-low.glb",
+  "materials": [
+   2,
+   5
+  ]
+ },
+ {
+  "id": "building.storyCutStone",
+  "old": "env/building-ruins-stoneBlock.glb",
+  "variants": [
+   "env-v3/building-ruins-stoneBlock.glb"
+  ],
+  "tris": {
+   "old": 2500,
+   "model": 2008,
+   "low": 2008
+  },
+  "notes": "Story prop (Tripo scan before): <= 1.2x old triangles. Same node/mesh name, origin (bottom centre), front (+Z) and footprint. Carved block: chamfer + chips, raised frames on four sides (one broken), ring+wave glyph relief on the front, incised squares, worn top grooves, a crack, moss patches on the top edges and at the foot, soil stones round the foot. Only replaces building.storyCutStone; blueprint-view keeps loading the old stoneBlock file.",
+  "low": "env-v3/building-ruins-stoneBlock-low.glb",
+  "materials": [
+   1,
+   2,
+   5
+  ]
+ },
+ {
+  "id": "building.storyCrate",
+  "old": "env/building-driftCrate.glb",
+  "variants": [
+   "env-v3/building-driftCrate.glb"
+  ],
+  "tris": {
+   "old": 1500,
+   "model": 1800,
+   "low": 1454
+  },
+  "notes": "Story prop (Tripo scan before): <= 1.2x old triangles. Same node/mesh name, origin (bottom centre), front (+Z) and footprint. Plank crate: boards with gaps and chipped ends, one broken side board, corner posts, iron corner straps, two rope lashings knotted on top, seaweed drapes, barnacles. Lid stays flat-ish (game raycasts it to lay the imprint symbol).",
+  "low": "env-v3/building-driftCrate-low.glb",
+  "materials": [
+   4,
+   5,
+   8,
+   9
+  ]
+ },
+ {
+  "id": "building.dockPilings",
+  "old": "env/building-dockPilings.glb",
+  "variants": [
+   "env-v3/building-dockPilings.glb"
+  ],
+  "tris": {
+   "old": 1500,
+   "model": 1681,
+   "low": 1454
+  },
+  "notes": "Story prop (Tripo scan before): <= 1.2x old triangles. Same node/mesh name, origin (bottom centre), front (+Z) and footprint. Four split posts (slanted cut tops with end grain, cracks, wet algae feet), rope wound twice round each post, sagging spans, the last span snapped and hanging, splintered plank leaning on the right post, stones and a rotten stump. Instanced twice (InstancedMesh per part).",
+  "low": "env-v3/building-dockPilings-low.glb",
+  "materials": [
+   2,
+   4,
+   5,
+   9
+  ]
+ }
+]

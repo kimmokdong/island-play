@@ -1,0 +1,142 @@
+[
+ {
+  "id": "building.jungleHollow",
+  "old": "env/land-hollowTree.glb",
+  "variants": [
+   "env-v3/land-hollowTree.glb"
+  ],
+  "tris": {
+   "old": 3000,
+   "model": 3349,
+   "low": 2134
+  },
+  "notes": "Replaces a Tripo scan (unindexed, 3 verts/tri) with an indexed vertex-colour mesh + baked AO + _MATERIAL. Same node/mesh name, origin, axes. Hollow trunk is open at the top; arched opening faces the front (+Z), the old one opened front-left. Buttress roots are lobes of the trunk shell (one piece), no separate root meshes.",
+  "materials": [
+   2,
+   3,
+   5,
+   6,
+   7,
+   10
+  ],
+  "low": "env-v3/land-hollowTree-low.glb"
+ },
+ {
+  "id": "building.jungleGate",
+  "old": "env/building-ruinsGate.glb",
+  "variants": [
+   "env-v3/building-ruinsGate.glb"
+  ],
+  "tris": {
+   "old": 7999,
+   "model": 9332,
+   "low": 5043
+  },
+  "notes": "Replaces a Tripo scan (unindexed, 3 verts/tri) with an indexed vertex-colour mesh + baked AO + _MATERIAL. Same node/mesh name, origin, axes. Arch opening 2.4 m wide, crown 4.1 m, axis along X like the old.",
+  "materials": [
+   1,
+   2,
+   5,
+   7
+  ],
+  "low": "env-v3/building-ruinsGate-low.glb"
+ },
+ {
+  "id": "building.storyPackedFood",
+  "old": "env/building-expedition-packedFood.glb",
+  "variants": [
+   "env-v3/building-expedition-packedFood.glb"
+  ],
+  "tris": {
+   "old": 2499,
+   "model": 1876,
+   "low": 1455
+  },
+  "notes": "Replaces a Tripo scan (unindexed, 3 verts/tri) with an indexed vertex-colour mesh + baked AO + _MATERIAL. Same node/mesh name, origin, axes. Long axis X; food visible through a slit on top.",
+  "materials": [
+   0,
+   7,
+   9
+  ],
+  "low": "env-v3/building-expedition-packedFood-low.glb"
+ },
+ {
+  "id": "building.highlandBase",
+  "old": "env/building-oldFoundation.glb",
+  "variants": [
+   "env-v3/building-oldFoundation.glb"
+  ],
+  "tris": {
+   "old": 4999,
+   "model": 5665,
+   "low": 3296
+  },
+  "notes": "Replaces a Tripo scan (unindexed, 3 verts/tri) with an indexed vertex-colour mesh + baked AO + _MATERIAL. Same node/mesh name, origin, axes. Stairs face +Z (front) like the old; the game scales it x3.4 / y x0.45, so detail is kept chunky in height.",
+  "materials": [
+   1,
+   2,
+   5,
+   7
+  ],
+  "low": "env-v3/building-oldFoundation-low.glb"
+ },
+ {
+  "id": "building.highlandCamp",
+  "old": "env/land-lastCamp.glb",
+  "variants": [
+   "env-v3/land-lastCamp.glb"
+  ],
+  "tris": {
+   "old": 1500,
+   "model": 1788,
+   "low": 1164
+  },
+  "notes": "Replaces a Tripo scan (unindexed, 3 verts/tri) with an indexed vertex-colour mesh + baked AO + _MATERIAL. Same node/mesh name, origin, axes. Shelter opens to +Z (front); fire ring front-left, crate front-right.",
+  "materials": [
+   2,
+   4,
+   6,
+   7,
+   8,
+   9
+  ],
+  "low": "env-v3/land-lastCamp-low.glb"
+ },
+ {
+  "id": "building.canteenProp",
+  "old": "env/building-expedition-canteen.glb",
+  "variants": [
+   "env-v3/building-expedition-canteen.glb"
+  ],
+  "tris": {
+   "old": 1500,
+   "model": 1782,
+   "low": 1067
+  },
+  "notes": "Replaces a Tripo scan (unindexed, 3 verts/tri) with an indexed vertex-colour mesh + baked AO + _MATERIAL. Same node/mesh name, origin, axes. Also sits on the ruins workbench (origin at the bottom centre).",
+  "materials": [
+   0,
+   4,
+   9
+  ],
+  "low": "env-v3/building-expedition-canteen-low.glb"
+ },
+ {
+  "id": "building.brokenRaft",
+  "old": "env/building-brokenRaft.glb",
+  "variants": [
+   "env-v3/building-brokenRaft.glb"
+  ],
+  "tris": {
+   "old": 5000,
+   "model": 5430,
+   "low": 3101
+  },
+  "notes": "Replaces a Tripo scan (unindexed, 3 verts/tri) with an indexed vertex-colour mesh + baked AO + _MATERIAL. Same node/mesh name, origin, axes. Logs along Z like the old; height <= 0.58.",
+  "materials": [
+   4,
+   9
+  ],
+  "low": "env-v3/building-brokenRaft-low.glb"
+ }
+]

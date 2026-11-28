@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="data:," />
+    <title>무인도 · 환경 에셋 고르기</title>
+    <script type="module" crossorigin src="./assets/assetPick-B16iDLfY.js"></script>
+    <link rel="modulepreload" crossorigin href="./assets/modulepreload-polyfill-P2Xu9kJm.js">
+    <link rel="modulepreload" crossorigin href="./assets/daylight-Dz4NRh2G.js">
+    <link rel="modulepreload" crossorigin href="./assets/three.core-BDQyDQbO.js">
+    <link rel="modulepreload" crossorigin href="./assets/sky-971sUhhq.js">
+    <link rel="modulepreload" crossorigin href="./assets/terrain-GASA5vir.js">
+    <link rel="modulepreload" crossorigin href="./assets/light-circuit-Cb4lHTWe.js">
+    <link rel="modulepreload" crossorigin href="./assets/material-DFB7Q4lN.js">
+    <link rel="modulepreload" crossorigin href="./assets/terrain-DcuYJdrg.js">
+    <link rel="modulepreload" crossorigin href="./assets/map-nodes-eA1oKEQM.js">
+    <link rel="modulepreload" crossorigin href="./assets/cave-DIu81Ccu.js">
+    <link rel="modulepreload" crossorigin href="./assets/view-gate-QsShu6S9.js">
+    <link rel="modulepreload" crossorigin href="./assets/ground-cover-Ct0d-KnX.js">
+    <link rel="modulepreload" crossorigin href="./assets/cave-view-6HrAaW-R.js">
+    <link rel="modulepreload" crossorigin href="./assets/item-sources-BLYcDdCi.js">
+    <link rel="modulepreload" crossorigin href="./assets/_virtual_asset-list-BzzAJfa2.js">
+    <link rel="modulepreload" crossorigin href="./assets/OrbitControls-FR7_J1n4.js">
+    <link rel="modulepreload" crossorigin href="./assets/three.module-DfFrjeIo.js">
+    <link rel="modulepreload" crossorigin href="./assets/stage-B_P7nEaF.js">
+    <link rel="modulepreload" crossorigin href="./assets/gfx-quality-C0FRE2VK.js">
+    <link rel="modulepreload" crossorigin href="./assets/water-C5jxoGaN.js">
+    <link rel="modulepreload" crossorigin href="./assets/gfx-BGFs2c9y.js">
+    <link rel="stylesheet" crossorigin href="./assets/cave-view-BLNhyDIn.css">
+    <link rel="stylesheet" crossorigin href="./assets/assetPick-CAlIhN6H.css">
+  </head>
+  <body>
+    <main class="picker">
+      <header class="masthead">
+        <div>
+          <a href="./gallery.html">← 에셋 갤러리</a>
+          <h1>환경 에셋 고르기</h1>
+        </div>
+        <div class="actions">
+          <label class="quality">모델 <select id="model"><option value="old">예전</option><option value="new">새 모델</option></select></label>
+          <label class="quality">그래픽 <select id="quality"><option>HIGH</option><option>MEDIUM</option></select></label>
+          <output id="picked" aria-live="polite">고른 것 0개</output>
+          <button id="copy" class="primary" type="button" disabled>고른 목록 복사</button>
+          <button id="clear" type="button" disabled>모두 지우기</button>
+        </div>
+      </header>
+      <section class="references" aria-labelledby="reference-title">
+        <div class="section-head">
+          <h2 id="reference-title">기준: 이 정도 품질</h2>
+          <p>맑은 날 09:30 · 드래그로 회전 · 휠로 확대/축소</p>
+        </div>
+        <div id="references" class="reference-grid"></div>
+      </section>
+      <section class="asset-panel" aria-label="환경 에셋 목록">
+        <nav id="groups" aria-label="에셋 종류"></nav>
+        <div id="assets" class="asset-grid"></div>
+        <div class="panel-foot">
+          <p>집 섬은 본섬·썰물 섬·썰물 길의 기본 배치 기준</p>
+          <nav class="paging" aria-label="에셋 쪽 넘기기">
+            <button id="prev" type="button" aria-label="이전 쪽">◀</button>
+            <output id="page" aria-live="polite">1 / 1</output>
+            <button id="next" type="button" aria-label="다음 쪽">▶</button>
+          </nav>
+          <p id="status" role="status">배치와 그래픽을 불러오는 중…</p>
+        </div>
+      </section>
+      <dialog id="clipboard">
+        <form method="dialog"><button type="submit">닫기</button></form>
+        <h2>고른 목록</h2>
+        <p>텍스트를 직접 복사해 주세요.</p>
+        <textarea aria-label="복사할 에셋 목록" readonly></textarea>
+      </dialog>
+    </main>
+  </body>
+</html>

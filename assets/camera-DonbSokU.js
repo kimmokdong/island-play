@@ -1,0 +1,1 @@
+var e={distance:12,pitchDeg:45,yawDeg:45,fov:40,lookHeight:1};export{e as t};

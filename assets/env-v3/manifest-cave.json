@@ -1,0 +1,186 @@
+[
+  {
+    "id": "cave.stalagmite",
+    "old": null,
+    "variants": [
+      "env-v3/cave-stalagmite-v1.glb",
+      "env-v3/cave-stalagmite-v2.glb",
+      "env-v3/cave-stalagmite-v3.glb"
+    ],
+    "low": "env-v3/cave-stalagmite-low.glb",
+    "tris": {
+      "old": 10,
+      "v1": 320,
+      "v2": 444,
+      "v3": 484,
+      "low": 9
+    },
+    "notes": "was ConeGeometry(.32, 1.5, 5) instanced 38x at the wall edge. Twisted flowstone flutes, drip rings, wet pale tip; v2 twin, v3 stubby with two knobs. Game merges all 38 into one mesh (1 draw call as before).",
+    "materials": [
+      1
+    ]
+  },
+  {
+    "id": "cave.vein",
+    "old": null,
+    "variants": [
+      "env-v3/cave-vein-v1.glb",
+      "env-v3/cave-vein-v2.glb",
+      "env-v3/cave-vein-v3.glb"
+    ],
+    "low": "env-v3/cave-vein-low.glb",
+    "tris": {
+      "old": 8,
+      "v1": 198,
+      "v2": 216,
+      "v3": 180,
+      "low": 8
+    },
+    "notes": "was an octahedron (8 tris) scaled (s, 2s, s). Cluster of hexagonal crystals on a dark matrix. Colours carry the vein tint for the picker; the game divides it out so the 21 brightness materials still set the colour.",
+    "materials": [
+      2,
+      11
+    ]
+  },
+  {
+    "id": "cave.diamond",
+    "old": null,
+    "variants": [
+      "env-v3/cave-diamond.glb"
+    ],
+    "low": "env-v3/cave-diamond-low.glb",
+    "tris": {
+      "old": 8,
+      "v1": 112,
+      "low": 8
+    },
+    "notes": "was an octahedron scaled (.2, .3, .2). Brilliant cut (table, star, kite, girdle, pavilion), faint yellow/violet fire on some facets.",
+    "materials": [
+      11
+    ]
+  },
+  {
+    "id": "cave.oreCopper",
+    "old": null,
+    "variants": [
+      "env-v3/cave-oreCopper-v1.glb",
+      "env-v3/cave-oreCopper-v2.glb",
+      "env-v3/cave-oreCopper-v3.glb"
+    ],
+    "low": "env-v3/cave-oreCopper-low.glb",
+    "tris": {
+      "old": 36,
+      "v1": 1530,
+      "v2": 1530,
+      "v3": 1530,
+      "low": 30
+    },
+    "notes": "was DodecahedronGeometry(.55) in flat #ad7c56. Same recipe as node.copperVein (env_v3_resources.vein) fitted to the old lump size.",
+    "materials": [
+      2,
+      11
+    ]
+  },
+  {
+    "id": "cave.oreIron",
+    "old": null,
+    "variants": [
+      "env-v3/cave-oreIron-v1.glb",
+      "env-v3/cave-oreIron-v2.glb",
+      "env-v3/cave-oreIron-v3.glb"
+    ],
+    "low": "env-v3/cave-oreIron-low.glb",
+    "tris": {
+      "old": 36,
+      "v1": 1460,
+      "v2": 1460,
+      "v3": 1460,
+      "low": 30
+    },
+    "notes": "was DodecahedronGeometry(.55) in flat #82929f. Same recipe as node.ironVein (env_v3_resources.vein) fitted to the old lump size.",
+    "materials": [
+      2,
+      11
+    ]
+  },
+  {
+    "id": "cave.fossil",
+    "old": null,
+    "variants": [
+      "env-v3/cave-fossil-v1.glb",
+      "env-v3/cave-fossil-v2.glb",
+      "env-v3/cave-fossil-v3.glb"
+    ],
+    "low": "env-v3/cave-fossil-low.glb",
+    "tris": {
+      "old": 24,
+      "v1": 363,
+      "v2": 366,
+      "v3": 460,
+      "low": 24
+    },
+    "notes": "was a flat RingGeometry half ring for every kind. v1 = shell, v2 = fern, v3 = fish bones (same order as cave.json game.fossils; the game picks by kind, not by hash). Small stone slab under the relief.",
+    "materials": [
+      1
+    ]
+  },
+  {
+    "id": "cave.plug",
+    "old": null,
+    "variants": [
+      "env-v3/cave-plug-v1.glb",
+      "env-v3/cave-plug-v2.glb",
+      "env-v3/cave-plug-v3.glb"
+    ],
+    "low": "env-v3/cave-plug-low.glb",
+    "tris": {
+      "old": 36,
+      "v1": 900,
+      "v2": 900,
+      "v3": 900,
+      "low": 34
+    },
+    "notes": "was DodecahedronGeometry(1) scaled (1.1, .95, 1.1). Flowstone mound with draped flutes, lobes and a swollen rim at the floor.",
+    "materials": [
+      1
+    ]
+  },
+  {
+    "id": "cave.bat",
+    "old": null,
+    "variants": [
+      "env-v3/cave-bat-v1.glb",
+      "env-v3/cave-bat-v2.glb",
+      "env-v3/cave-bat-v3.glb"
+    ],
+    "low": "env-v3/cave-bat-low.glb",
+    "tris": {
+      "old": 3,
+      "v1": 296,
+      "v2": 312,
+      "v3": 312,
+      "low": 6
+    },
+    "notes": "was three triangles. Furry body, head with snout and ears, wrist and three finger bones, membrane sagging between them; front and back faces are in the model (game material is single sided now). Flap still scales x only.",
+    "materials": [
+      9
+    ]
+  },
+  {
+    "id": "trace.markedGlass",
+    "old": null,
+    "variants": [
+      "env-v3/trace-markedGlass.glb"
+    ],
+    "low": "env-v3/trace-markedGlass-low.glb",
+    "tris": {
+      "old": 186,
+      "v1": 200,
+      "low": 49
+    },
+    "notes": "sandbar glass (explore-view.ts glassPick, not inside the sea cave): was a flattened dodecahedron + torus/tube mark. Curved bottle-wall shard with worn rim, mark etched on top (0_glass, 1_mark).",
+    "materials": [
+      0
+    ]
+  }
+]

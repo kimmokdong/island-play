@@ -1,0 +1,1075 @@
+[
+ {
+  "id": "building.stove",
+  "old": "env/building-stove.glb",
+  "variants": [
+   "env-v3/building-stove.glb"
+  ],
+  "low": "env-v3/building-stove.glb",
+  "tris": {
+   "old": 5000,
+   "model": 7866,
+   "low": 7866
+  },
+  "materials": [
+   0,
+   1,
+   2,
+   4,
+   5,
+   6,
+   7,
+   9
+  ],
+  "notes": "FACILITY-TRIAL-1 (user chose 2026-11-28): stove carved from scratch with the ENV3 helpers. Three corbelled courses of chipped stones round the firebox mouth (facility DOOR/FIRE coordinates kept), lintel, flat cooking slab, four lashed posts with a beam frame, leaf fringe, firewood, charred logs in the mouth. fx_fire mark as in the old file. Close-up (facility-scene) uses it too."
+ },
+ {
+  "id": "building.betterStove",
+  "old": "env/building-betterStove.glb",
+  "variants": [
+   "env-v3/building-betterStove.glb"
+  ],
+  "low": "env-v3/building-betterStove.glb",
+  "tris": {
+   "old": 5000,
+   "model": 7880,
+   "low": 7880
+  },
+  "materials": [
+   1,
+   2,
+   4,
+   5,
+   6,
+   9
+  ],
+  "notes": "Facility smoothing (user 2026-11-28 '각만 다듬기, 더 많이'): the old game model, subdivided once, stone/moss/clay vertices Laplacian-smoothed (30x, volume kept), wood/leaves/rope untouched, decimated, _MATERIAL by colour, light AO."
+ },
+ {
+  "id": "building.betterStove.open",
+  "old": "env/building-betterStove-open.glb",
+  "variants": [
+   "env-v3/building-betterStove-open.glb"
+  ],
+  "low": "env-v3/building-betterStove-open.glb",
+  "tris": {
+   "old": 4743,
+   "model": 7474,
+   "low": 7474
+  },
+  "materials": [
+   1,
+   2,
+   4,
+   5,
+   6,
+   9
+  ],
+  "notes": "Facility smoothing (user 2026-11-28 '각만 다듬기, 더 많이'): the old game model, subdivided once, stone/moss/clay vertices Laplacian-smoothed (30x, volume kept), wood/leaves/rope untouched, decimated, _MATERIAL by colour, light AO."
+ },
+ {
+  "id": "building.betterStove.door",
+  "old": "env/building-betterStove-door.glb",
+  "variants": [
+   "env-v3/building-betterStove-door.glb"
+  ],
+  "low": "env-v3/building-betterStove-door.glb",
+  "tris": {
+   "old": 257,
+   "model": 886,
+   "low": 886
+  },
+  "materials": [
+   4,
+   6
+  ],
+  "notes": "Facility smoothing (user 2026-11-28 '각만 다듬기, 더 많이'): the old game model, subdivided once, stone/moss/clay vertices Laplacian-smoothed (30x, volume kept), wood/leaves/rope untouched, decimated, _MATERIAL by colour, light AO."
+ },
+ {
+  "id": "building.betterStove.pot",
+  "old": "env/building-betterStove-pot.glb",
+  "variants": [
+   "env-v3/building-betterStove-pot.glb"
+  ],
+  "low": "env-v3/building-betterStove-pot.glb",
+  "tris": {
+   "old": 2500,
+   "model": 2461,
+   "low": 2461
+  },
+  "materials": [
+   6
+  ],
+  "notes": "Facility smoothing (user 2026-11-28 '각만 다듬기, 더 많이'): the old game model, subdivided once, stone/moss/clay vertices Laplacian-smoothed (30x, volume kept), wood/leaves/rope untouched, decimated, _MATERIAL by colour, light AO."
+ },
+ {
+  "id": "building.workbench",
+  "old": "env/building-workbench.glb",
+  "variants": [
+   "env-v3/building-workbench.glb"
+  ],
+  "low": "env-v3/building-workbench.glb",
+  "tris": {
+   "old": 5000,
+   "model": 7879,
+   "low": 7879
+  },
+  "materials": [
+   2,
+   4,
+   5,
+   7,
+   9
+  ],
+  "notes": "Facility smoothing (user 2026-11-28 '각만 다듬기, 더 많이'): the old game model, subdivided once, stone/moss/clay vertices Laplacian-smoothed (30x, volume kept), wood/leaves/rope untouched, decimated, _MATERIAL by colour, light AO."
+ },
+ {
+  "id": "building.campfire",
+  "old": "env/building-campfire.glb",
+  "variants": [
+   "env-v3/building-campfire.glb"
+  ],
+  "low": "env-v3/building-campfire.glb",
+  "tris": {
+   "old": 5000,
+   "model": 7879,
+   "low": 7879
+  },
+  "materials": [
+   1,
+   2,
+   4,
+   5,
+   9
+  ],
+  "notes": "Facility smoothing (user 2026-11-28 '각만 다듬기, 더 많이'): the old game model, subdivided once, stone/moss/clay vertices Laplacian-smoothed (30x, volume kept), wood/leaves/rope untouched, decimated, _MATERIAL by colour, light AO."
+ },
+ {
+  "id": "building.rainBowl",
+  "old": "env/building-rainBowl.glb",
+  "variants": [
+   "env-v3/building-rainBowl.glb"
+  ],
+  "low": "env-v3/building-rainBowl.glb",
+  "tris": {
+   "old": 5000,
+   "model": 7880,
+   "low": 7880
+  },
+  "materials": [
+   1,
+   2,
+   4,
+   5,
+   7,
+   9
+  ],
+  "notes": "Facility smoothing (user 2026-11-28 '각만 다듬기, 더 많이'): the old game model, subdivided once, stone/moss/clay vertices Laplacian-smoothed (30x, volume kept), wood/leaves/rope untouched, decimated, _MATERIAL by colour, light AO."
+ },
+ {
+  "id": "building.chest",
+  "old": "env/building-chest.glb",
+  "variants": [
+   "env-v3/building-chest.glb"
+  ],
+  "low": "env-v3/building-chest.glb",
+  "tris": {
+   "old": 5000,
+   "model": 7880,
+   "low": 7880
+  },
+  "materials": [
+   4,
+   5,
+   7
+  ],
+  "notes": "Facility smoothing (user 2026-11-28 '각만 다듬기, 더 많이'): the old game model, subdivided once, stone/moss/clay vertices Laplacian-smoothed (30x, volume kept), wood/leaves/rope untouched, decimated, _MATERIAL by colour, light AO."
+ },
+ {
+  "id": "building.foodBox",
+  "old": "env/building-foodBox.glb",
+  "variants": [
+   "env-v3/building-foodBox.glb"
+  ],
+  "low": "env-v3/building-foodBox.glb",
+  "tris": {
+   "old": 4999,
+   "model": 7878,
+   "low": 7878
+  },
+  "materials": [
+   1,
+   2,
+   4,
+   5,
+   7,
+   9
+  ],
+  "notes": "Facility smoothing (user 2026-11-28 '각만 다듬기, 더 많이'): the old game model, subdivided once, stone/moss/clay vertices Laplacian-smoothed (30x, volume kept), wood/leaves/rope untouched, decimated, _MATERIAL by colour, light AO."
+ },
+ {
+  "id": "building.shelter",
+  "old": "env/building-shelter.glb",
+  "variants": [
+   "env-v3/building-shelter.glb"
+  ],
+  "low": "env-v3/building-shelter.glb",
+  "tris": {
+   "old": 5000,
+   "model": 7879,
+   "low": 7879
+  },
+  "materials": [
+   2,
+   4,
+   5,
+   7,
+   9
+  ],
+  "notes": "Facility smoothing (user 2026-11-28 '각만 다듬기, 더 많이'): the old game model, subdivided once, stone/moss/clay vertices Laplacian-smoothed (30x, volume kept), wood/leaves/rope untouched, decimated, _MATERIAL by colour, light AO."
+ },
+ {
+  "id": "building.sunDial",
+  "old": "env/building-sunDial.glb",
+  "variants": [
+   "env-v3/building-sunDial.glb"
+  ],
+  "low": "env-v3/building-sunDial.glb",
+  "tris": {
+   "old": 5000,
+   "model": 7879,
+   "low": 7879
+  },
+  "materials": [
+   1,
+   2,
+   4,
+   5,
+   7
+  ],
+  "notes": "Facility smoothing (user 2026-11-28 '각만 다듬기, 더 많이'): the old game model, subdivided once, stone/moss/clay vertices Laplacian-smoothed (30x, volume kept), wood/leaves/rope untouched, decimated, _MATERIAL by colour, light AO."
+ },
+ {
+  "id": "building.desalinator",
+  "old": "env/building-desalinator.glb",
+  "variants": [
+   "env-v3/building-desalinator.glb"
+  ],
+  "low": "env-v3/building-desalinator.glb",
+  "tris": {
+   "old": 5000,
+   "model": 7879,
+   "low": 7879
+  },
+  "materials": [
+   1,
+   2,
+   4,
+   5,
+   6,
+   8,
+   9
+  ],
+  "notes": "Facility smoothing (user 2026-11-28 '각만 다듬기, 더 많이'): the old game model, subdivided once, stone/moss/clay vertices Laplacian-smoothed (30x, volume kept), wood/leaves/rope untouched, decimated, _MATERIAL by colour, light AO."
+ },
+ {
+  "id": "building.beacon",
+  "old": "env/building-beacon.glb",
+  "variants": [
+   "env-v3/building-beacon.glb"
+  ],
+  "low": "env-v3/building-beacon.glb",
+  "tris": {
+   "old": 5000,
+   "model": 7879,
+   "low": 7879
+  },
+  "materials": [
+   2,
+   4,
+   5,
+   9
+  ],
+  "notes": "Facility smoothing (user 2026-11-28 '각만 다듬기, 더 많이'): the old game model, subdivided once, stone/moss/clay vertices Laplacian-smoothed (30x, volume kept), wood/leaves/rope untouched, decimated, _MATERIAL by colour, light AO."
+ },
+ {
+  "id": "building.kiln",
+  "old": "env/building-kiln.glb",
+  "variants": [
+   "env-v3/building-kiln.glb"
+  ],
+  "low": "env-v3/building-kiln.glb",
+  "tris": {
+   "old": 5000,
+   "model": 7880,
+   "low": 7880
+  },
+  "materials": [
+   2,
+   4,
+   5,
+   6,
+   9
+  ],
+  "notes": "Facility smoothing (user 2026-11-28 '각만 다듬기, 더 많이'): the old game model, subdivided once, stone/moss/clay vertices Laplacian-smoothed (30x, volume kept), wood/leaves/rope untouched, decimated, _MATERIAL by colour, light AO."
+ },
+ {
+  "id": "building.dryingRack",
+  "old": "env/building-dryingRack.glb",
+  "variants": [
+   "env-v3/building-dryingRack.glb"
+  ],
+  "low": "env-v3/building-dryingRack.glb",
+  "tris": {
+   "old": 5000,
+   "model": 7880,
+   "low": 7880
+  },
+  "materials": [
+   1,
+   2,
+   4,
+   5,
+   7,
+   9
+  ],
+  "notes": "Facility smoothing (user 2026-11-28 '각만 다듬기, 더 많이'): the old game model, subdivided once, stone/moss/clay vertices Laplacian-smoothed (30x, volume kept), wood/leaves/rope untouched, decimated, _MATERIAL by colour, light AO."
+ },
+ {
+  "id": "building.garden",
+  "old": "env/building-garden.glb",
+  "variants": [
+   "env-v3/building-garden.glb"
+  ],
+  "low": "env-v3/building-garden.glb",
+  "tris": {
+   "old": 5000,
+   "model": 7880,
+   "low": 7880
+  },
+  "materials": [
+   1,
+   2,
+   4,
+   5,
+   7,
+   9
+  ],
+  "notes": "Facility smoothing (user 2026-11-28 '각만 다듬기, 더 많이'): the old game model, subdivided once, stone/moss/clay vertices Laplacian-smoothed (30x, volume kept), wood/leaves/rope untouched, decimated, _MATERIAL by colour, light AO."
+ },
+ {
+  "id": "building.rainTank",
+  "old": "env/building-rainTank.glb",
+  "variants": [
+   "env-v3/building-rainTank.glb"
+  ],
+  "low": "env-v3/building-rainTank.glb",
+  "tris": {
+   "old": 4999,
+   "model": 7878,
+   "low": 7878
+  },
+  "materials": [
+   2,
+   4,
+   5,
+   7,
+   9
+  ],
+  "notes": "Facility smoothing (user 2026-11-28 '각만 다듬기, 더 많이'): the old game model, subdivided once, stone/moss/clay vertices Laplacian-smoothed (30x, volume kept), wood/leaves/rope untouched, decimated, _MATERIAL by colour, light AO."
+ },
+ {
+  "id": "building.solarStill",
+  "old": "env/building-solarStill.glb",
+  "variants": [
+   "env-v3/building-solarStill.glb"
+  ],
+  "low": "env-v3/building-solarStill.glb",
+  "tris": {
+   "old": 4998,
+   "model": 7876,
+   "low": 7876
+  },
+  "materials": [
+   2,
+   4,
+   5,
+   7,
+   8,
+   9
+  ],
+  "notes": "Facility smoothing (user 2026-11-28 '각만 다듬기, 더 많이'): the old game model, subdivided once, stone/moss/clay vertices Laplacian-smoothed (30x, volume kept), wood/leaves/rope untouched, decimated, _MATERIAL by colour, light AO."
+ },
+ {
+  "id": "building.coolStore",
+  "old": "env/building-coolStore.glb",
+  "variants": [
+   "env-v3/building-coolStore.glb"
+  ],
+  "low": "env-v3/building-coolStore.glb",
+  "tris": {
+   "old": 4999,
+   "model": 7877,
+   "low": 7877
+  },
+  "materials": [
+   2,
+   4,
+   5,
+   7
+  ],
+  "notes": "Facility smoothing (user 2026-11-28 '각만 다듬기, 더 많이'): the old game model, subdivided once, stone/moss/clay vertices Laplacian-smoothed (30x, volume kept), wood/leaves/rope untouched, decimated, _MATERIAL by colour, light AO."
+ },
+ {
+  "id": "building.fishTrap",
+  "old": "env/building-fishTrap.glb",
+  "variants": [
+   "env-v3/building-fishTrap.glb"
+  ],
+  "low": "env-v3/building-fishTrap.glb",
+  "tris": {
+   "old": 5000,
+   "model": 7879,
+   "low": 7879
+  },
+  "materials": [
+   4,
+   5
+  ],
+  "notes": "Facility smoothing (user 2026-11-28 '각만 다듬기, 더 많이'): the old game model, subdivided once, stone/moss/clay vertices Laplacian-smoothed (30x, volume kept), wood/leaves/rope untouched, decimated, _MATERIAL by colour, light AO."
+ },
+ {
+  "id": "building.smallRaft",
+  "old": "env/building-smallRaft.glb",
+  "variants": [
+   "env-v3/building-smallRaft.glb"
+  ],
+  "low": "env-v3/building-smallRaft.glb",
+  "tris": {
+   "old": 4999,
+   "model": 7877,
+   "low": 7877
+  },
+  "materials": [
+   4,
+   5,
+   7
+  ],
+  "notes": "Facility smoothing (user 2026-11-28 '각만 다듬기, 더 많이'): the old game model, subdivided once, stone/moss/clay vertices Laplacian-smoothed (30x, volume kept), wood/leaves/rope untouched, decimated, _MATERIAL by colour, light AO."
+ },
+ {
+  "id": "building.stoneHouse",
+  "old": "env/building-stoneHouse.glb",
+  "variants": [
+   "env-v3/building-stoneHouse.glb"
+  ],
+  "low": "env-v3/building-stoneHouse.glb",
+  "tris": {
+   "old": 7999,
+   "model": 9850,
+   "low": 9850
+  },
+  "materials": [
+   2,
+   4,
+   5,
+   7,
+   9
+  ],
+  "notes": "Facility smoothing (user 2026-11-28 '각만 다듬기, 더 많이'): the old game model, subdivided once, stone/moss/clay vertices Laplacian-smoothed (30x, volume kept), wood/leaves/rope untouched, decimated, _MATERIAL by colour, light AO."
+ },
+ {
+  "id": "building.windVane",
+  "old": "env/building-windVane.glb",
+  "variants": [
+   "env-v3/building-windVane.glb"
+  ],
+  "low": "env-v3/building-windVane.glb",
+  "tris": {
+   "old": 4999,
+   "model": 7877,
+   "low": 7877
+  },
+  "materials": [
+   2,
+   4,
+   5,
+   7,
+   9
+  ],
+  "notes": "Facility smoothing (user 2026-11-28 '각만 다듬기, 더 많이'): the old game model, subdivided once, stone/moss/clay vertices Laplacian-smoothed (30x, volume kept), wood/leaves/rope untouched, decimated, _MATERIAL by colour, light AO."
+ },
+ {
+  "id": "building.furnace",
+  "old": "env/building-furnace.glb",
+  "variants": [
+   "env-v3/building-furnace.glb"
+  ],
+  "low": "env-v3/building-furnace.glb",
+  "tris": {
+   "old": 5000,
+   "model": 7879,
+   "low": 7879
+  },
+  "materials": [
+   2,
+   4,
+   5,
+   6,
+   7,
+   9
+  ],
+  "notes": "Facility smoothing (user 2026-11-28 '각만 다듬기, 더 많이'): the old game model, subdivided once, stone/moss/clay vertices Laplacian-smoothed (30x, volume kept), wood/leaves/rope untouched, decimated, _MATERIAL by colour, light AO."
+ },
+ {
+  "id": "building.circuitLamp",
+  "old": "env/building-circuitLamp.glb",
+  "variants": [
+   "env-v3/building-circuitLamp.glb"
+  ],
+  "low": "env-v3/building-circuitLamp.glb",
+  "tris": {
+   "old": 4999,
+   "model": 7877,
+   "low": 7877
+  },
+  "materials": [
+   1,
+   2,
+   4,
+   5,
+   7,
+   8,
+   9
+  ],
+  "notes": "Facility smoothing (user 2026-11-28 '각만 다듬기, 더 많이'): the old game model, subdivided once, stone/moss/clay vertices Laplacian-smoothed (30x, volume kept), wood/leaves/rope untouched, decimated, _MATERIAL by colour, light AO."
+ },
+ {
+  "id": "building.magnetCrane",
+  "old": "env/building-magnetCrane.glb",
+  "variants": [
+   "env-v3/building-magnetCrane.glb"
+  ],
+  "low": "env-v3/building-magnetCrane.glb",
+  "tris": {
+   "old": 8000,
+   "model": 9849,
+   "low": 9849
+  },
+  "materials": [
+   2,
+   4,
+   5,
+   7,
+   9
+  ],
+  "notes": "Facility smoothing (user 2026-11-28 '각만 다듬기, 더 많이'): the old game model, subdivided once, stone/moss/clay vertices Laplacian-smoothed (30x, volume kept), wood/leaves/rope untouched, decimated, _MATERIAL by colour, light AO."
+ },
+ {
+  "id": "building.windmill",
+  "old": "env/building-windmill.glb",
+  "variants": [
+   "env-v3/building-windmill.glb"
+  ],
+  "low": "env-v3/building-windmill.glb",
+  "tris": {
+   "old": 8000,
+   "model": 9850,
+   "low": 9850
+  },
+  "materials": [
+   1,
+   2,
+   4,
+   5,
+   7,
+   8,
+   9
+  ],
+  "notes": "Facility smoothing (user 2026-11-28 '각만 다듬기, 더 많이'): the old game model, subdivided once, stone/moss/clay vertices Laplacian-smoothed (30x, volume kept), wood/leaves/rope untouched, decimated, _MATERIAL by colour, light AO."
+ },
+ {
+  "id": "building.fishNet",
+  "old": "env/building-fishNet.glb",
+  "variants": [
+   "env-v3/building-fishNet.glb"
+  ],
+  "low": "env-v3/building-fishNet.glb",
+  "tris": {
+   "old": 5000,
+   "model": 7880,
+   "low": 7880
+  },
+  "materials": [
+   1,
+   2,
+   4,
+   5,
+   7,
+   9
+  ],
+  "notes": "Facility smoothing (user 2026-11-28 '각만 다듬기, 더 많이'): the old game model, subdivided once, stone/moss/clay vertices Laplacian-smoothed (30x, volume kept), wood/leaves/rope untouched, decimated, _MATERIAL by colour, light AO."
+ },
+ {
+  "id": "building.brickHouse",
+  "old": "env/building-brickHouse.glb",
+  "variants": [
+   "env-v3/building-brickHouse.glb"
+  ],
+  "low": "env-v3/building-brickHouse.glb",
+  "tris": {
+   "old": 7999,
+   "model": 9849,
+   "low": 9849
+  },
+  "materials": [
+   1,
+   2,
+   4,
+   5,
+   6,
+   9
+  ],
+  "notes": "Facility smoothing (user 2026-11-28 '각만 다듬기, 더 많이'): the old game model, subdivided once, stone/moss/clay vertices Laplacian-smoothed (30x, volume kept), wood/leaves/rope untouched, decimated, _MATERIAL by colour, light AO."
+ },
+ {
+  "id": "building.signalTower",
+  "old": "env/building-signalTower.glb",
+  "variants": [
+   "env-v3/building-signalTower.glb"
+  ],
+  "low": "env-v3/building-signalTower.glb",
+  "tris": {
+   "old": 8000,
+   "model": 9850,
+   "low": 9850
+  },
+  "materials": [
+   1,
+   2,
+   4,
+   5,
+   9
+  ],
+  "notes": "Facility smoothing (user 2026-11-28 '각만 다듬기, 더 많이'): the old game model, subdivided once, stone/moss/clay vertices Laplacian-smoothed (30x, volume kept), wood/leaves/rope untouched, decimated, _MATERIAL by colour, light AO."
+ },
+ {
+  "id": "building.boat",
+  "old": "env/building-boat.glb",
+  "variants": [
+   "env-v3/building-boat.glb"
+  ],
+  "low": "env-v3/building-boat.glb",
+  "tris": {
+   "old": 8000,
+   "model": 9849,
+   "low": 9849
+  },
+  "materials": [
+   4,
+   5,
+   7
+  ],
+  "notes": "Facility smoothing (user 2026-11-28 '각만 다듬기, 더 많이'): the old game model, subdivided once, stone/moss/clay vertices Laplacian-smoothed (30x, volume kept), wood/leaves/rope untouched, decimated, _MATERIAL by colour, light AO."
+ },
+ {
+  "id": "building.radioStation",
+  "old": "env/building-radioStation.glb",
+  "variants": [
+   "env-v3/building-radioStation.glb"
+  ],
+  "low": "env-v3/building-radioStation.glb",
+  "tris": {
+   "old": 7999,
+   "model": 9849,
+   "low": 9849
+  },
+  "materials": [
+   2,
+   4,
+   5,
+   7,
+   9
+  ],
+  "notes": "Facility smoothing (user 2026-11-28 '각만 다듬기, 더 많이'): the old game model, subdivided once, stone/moss/clay vertices Laplacian-smoothed (30x, volume kept), wood/leaves/rope untouched, decimated, _MATERIAL by colour, light AO."
+ },
+ {
+  "id": "building.campsite",
+  "old": "env/building-campsite.glb",
+  "variants": [
+   "env-v3/building-campsite.glb"
+  ],
+  "low": "env-v3/building-campsite.glb",
+  "tris": {
+   "old": 1499,
+   "model": 2361,
+   "low": 2361
+  },
+  "materials": [
+   1,
+   2,
+   4,
+   5,
+   7,
+   9
+  ],
+  "notes": "Facility smoothing (user 2026-11-28 '각만 다듬기, 더 많이'): the old game model, subdivided once, stone/moss/clay vertices Laplacian-smoothed (30x, volume kept), wood/leaves/rope untouched, decimated, _MATERIAL by colour, light AO."
+ },
+ {
+  "id": "building.flowerVase",
+  "old": "env/building-flowerVase.glb",
+  "variants": [
+   "env-v3/building-flowerVase.glb"
+  ],
+  "low": "env-v3/building-flowerVase.glb",
+  "tris": {
+   "old": 1228,
+   "model": 1934,
+   "low": 1934
+  },
+  "materials": [
+   2,
+   4,
+   5,
+   6,
+   7,
+   9
+  ],
+  "notes": "Facility smoothing (user 2026-11-28 '각만 다듬기, 더 많이'): the old game model, subdivided once, stone/moss/clay vertices Laplacian-smoothed (30x, volume kept), wood/leaves/rope untouched, decimated, _MATERIAL by colour, light AO."
+ },
+ {
+  "id": "building.pearlOrnament",
+  "old": "env/building-pearlOrnament.glb",
+  "variants": [
+   "env-v3/building-pearlOrnament.glb"
+  ],
+  "low": "env-v3/building-pearlOrnament.glb",
+  "tris": {
+   "old": 1499,
+   "model": 2361,
+   "low": 2361
+  },
+  "materials": [
+   2,
+   4,
+   5,
+   7,
+   9
+  ],
+  "notes": "Facility smoothing (user 2026-11-28 '각만 다듬기, 더 많이'): the old game model, subdivided once, stone/moss/clay vertices Laplacian-smoothed (30x, volume kept), wood/leaves/rope untouched, decimated, _MATERIAL by colour, light AO."
+ },
+ {
+  "id": "building.fireflyJar",
+  "old": "env/building-fireflyJar.glb",
+  "variants": [
+   "env-v3/building-fireflyJar.glb"
+  ],
+  "low": "env-v3/building-fireflyJar.glb",
+  "tris": {
+   "old": 1381,
+   "model": 2174,
+   "low": 2174
+  },
+  "materials": [
+   2,
+   4,
+   5,
+   7
+  ],
+  "notes": "Facility smoothing (user 2026-11-28 '각만 다듬기, 더 많이'): the old game model, subdivided once, stone/moss/clay vertices Laplacian-smoothed (30x, volume kept), wood/leaves/rope untouched, decimated, _MATERIAL by colour, light AO."
+ },
+ {
+  "id": "building.rescueShip",
+  "old": "env/building-rescueShip.glb",
+  "variants": [
+   "env-v3/building-rescueShip.glb"
+  ],
+  "low": "env-v3/building-rescueShip.glb",
+  "tris": {
+   "old": 6000,
+   "model": 9455,
+   "low": 9455
+  },
+  "materials": [
+   1,
+   2,
+   4,
+   8
+  ],
+  "notes": "Facility smoothing (user 2026-11-28 '각만 다듬기, 더 많이'): the old game model, subdivided once, stone/moss/clay vertices Laplacian-smoothed (30x, volume kept), wood/leaves/rope untouched, decimated, _MATERIAL by colour, light AO."
+ },
+ {
+  "id": "building.rescueLaunch",
+  "old": "env/building-rescueLaunch.glb",
+  "variants": [
+   "env-v3/building-rescueLaunch.glb"
+  ],
+  "low": "env-v3/building-rescueLaunch.glb",
+  "tris": {
+   "old": 2000,
+   "model": 3151,
+   "low": 3151
+  },
+  "materials": [
+   1,
+   2,
+   4,
+   8
+  ],
+  "notes": "Facility smoothing (user 2026-11-28 '각만 다듬기, 더 많이'): the old game model, subdivided once, stone/moss/clay vertices Laplacian-smoothed (30x, volume kept), wood/leaves/rope untouched, decimated, _MATERIAL by colour, light AO."
+ },
+ {
+  "id": "building.messageBottle",
+  "old": "env/building-messageBottle.glb",
+  "variants": [
+   "env-v3/building-messageBottle.glb"
+  ],
+  "low": "env-v3/building-messageBottle.glb",
+  "tris": {
+   "old": 1500,
+   "model": 2363,
+   "low": 2363
+  },
+  "materials": [
+   2,
+   4,
+   5,
+   7,
+   9
+  ],
+  "notes": "Facility smoothing (user 2026-11-28 '각만 다듬기, 더 많이'): the old game model, subdivided once, stone/moss/clay vertices Laplacian-smoothed (30x, volume kept), wood/leaves/rope untouched, decimated, _MATERIAL by colour, light AO."
+ },
+ {
+  "id": "building.garden.bed",
+  "old": "env/building-garden-bed.glb",
+  "variants": [
+   "env-v3/building-garden-bed.glb"
+  ],
+  "low": "env-v3/building-garden-bed.glb",
+  "tris": {
+   "old": 4140,
+   "model": 6523,
+   "low": 6523
+  },
+  "materials": [
+   1,
+   2,
+   4,
+   5,
+   9
+  ],
+  "notes": "Facility smoothing (user 2026-11-28 '각만 다듬기, 더 많이'): the old game model, subdivided once, stone/moss/clay vertices Laplacian-smoothed (30x, volume kept), wood/leaves/rope untouched, decimated, _MATERIAL by colour, light AO."
+ },
+ {
+  "id": "facility.solarStill-cup",
+  "old": "env/building-solarStill-cup.glb",
+  "variants": [
+   "env-v3/building-solarStill-cup.glb"
+  ],
+  "low": "env-v3/building-solarStill-cup.glb",
+  "tris": {
+   "old": 332,
+   "model": 885,
+   "low": 885
+  },
+  "materials": [
+   2,
+   4,
+   5,
+   8
+  ],
+  "notes": "Facility smoothing (user 2026-11-28 '각만 다듬기, 더 많이'): the old game model, subdivided once, stone/moss/clay vertices Laplacian-smoothed (30x, volume kept), wood/leaves/rope untouched, decimated, _MATERIAL by colour, light AO."
+ },
+ {
+  "id": "facility.garden-flower",
+  "old": "env/building-garden-flower.glb",
+  "variants": [
+   "env-v3/building-garden-flower.glb"
+  ],
+  "low": "env-v3/building-garden-flower.glb",
+  "tris": {
+   "old": 2500,
+   "model": 3939,
+   "low": 3939
+  },
+  "materials": [
+   2,
+   4,
+   5,
+   7,
+   9
+  ],
+  "notes": "Facility smoothing (user 2026-11-28 '각만 다듬기, 더 많이'): the old game model, subdivided once, stone/moss/clay vertices Laplacian-smoothed (30x, volume kept), wood/leaves/rope untouched, decimated, _MATERIAL by colour, light AO."
+ },
+ {
+  "id": "facility.garden-fruit",
+  "old": "env/building-garden-fruit.glb",
+  "variants": [
+   "env-v3/building-garden-fruit.glb"
+  ],
+  "low": "env-v3/building-garden-fruit.glb",
+  "tris": {
+   "old": 2500,
+   "model": 3940,
+   "low": 3940
+  },
+  "materials": [
+   2,
+   4,
+   5,
+   7
+  ],
+  "notes": "Facility smoothing (user 2026-11-28 '각만 다듬기, 더 많이'): the old game model, subdivided once, stone/moss/clay vertices Laplacian-smoothed (30x, volume kept), wood/leaves/rope untouched, decimated, _MATERIAL by colour, light AO."
+ },
+ {
+  "id": "facility.rainTank-post",
+  "old": "env/building-rainTank-post.glb",
+  "variants": [
+   "env-v3/building-rainTank-post.glb"
+  ],
+  "low": "env-v3/building-rainTank-post.glb",
+  "tris": {
+   "old": 300,
+   "model": 886,
+   "low": 886
+  },
+  "materials": [
+   4
+  ],
+  "notes": "Facility smoothing (user 2026-11-28 '각만 다듬기, 더 많이'): the old game model, subdivided once, stone/moss/clay vertices Laplacian-smoothed (30x, volume kept), wood/leaves/rope untouched, decimated, _MATERIAL by colour, light AO."
+ },
+ {
+  "id": "facility.rainTank-wall",
+  "old": "env/building-rainTank-wall.glb",
+  "variants": [
+   "env-v3/building-rainTank-wall.glb"
+  ],
+  "low": "env-v3/building-rainTank-wall.glb",
+  "tris": {
+   "old": 900,
+   "model": 1418,
+   "low": 1418
+  },
+  "materials": [
+   4
+  ],
+  "notes": "Facility smoothing (user 2026-11-28 '각만 다듬기, 더 많이'): the old game model, subdivided once, stone/moss/clay vertices Laplacian-smoothed (30x, volume kept), wood/leaves/rope untouched, decimated, _MATERIAL by colour, light AO."
+ },
+ {
+  "id": "facility.windVane-arrow-tripo",
+  "old": "env/building-windVane-arrow-tripo.glb",
+  "variants": [
+   "env-v3/building-windVane-arrow-tripo.glb"
+  ],
+  "low": "env-v3/building-windVane-arrow-tripo.glb",
+  "tris": {
+   "old": 4999,
+   "model": 7877,
+   "low": 7877
+  },
+  "materials": [
+   1,
+   4
+  ],
+  "notes": "Facility smoothing (user 2026-11-28 '각만 다듬기, 더 많이'): the old game model, subdivided once, stone/moss/clay vertices Laplacian-smoothed (30x, volume kept), wood/leaves/rope untouched, decimated, _MATERIAL by colour, light AO."
+ },
+ {
+  "id": "facility.windmill-rotor-tripo",
+  "old": "env/building-windmill-rotor-tripo.glb",
+  "variants": [
+   "env-v3/building-windmill-rotor-tripo.glb"
+  ],
+  "low": "env-v3/building-windmill-rotor-tripo.glb",
+  "tris": {
+   "old": 5000,
+   "model": 7880,
+   "low": 7880
+  },
+  "materials": [
+   4,
+   9
+  ],
+  "notes": "Facility smoothing (user 2026-11-28 '각만 다듬기, 더 많이'): the old game model, subdivided once, stone/moss/clay vertices Laplacian-smoothed (30x, volume kept), wood/leaves/rope untouched, decimated, _MATERIAL by colour, light AO."
+ },
+ {
+  "id": "facility.windmill-chargeBox",
+  "old": "env/building-windmill-chargeBox.glb",
+  "variants": [
+   "env-v3/building-windmill-chargeBox.glb"
+  ],
+  "low": "env-v3/building-windmill-chargeBox.glb",
+  "tris": {
+   "old": 2500,
+   "model": 3940,
+   "low": 3940
+  },
+  "materials": [
+   2,
+   4,
+   5,
+   7,
+   8
+  ],
+  "notes": "Facility smoothing (user 2026-11-28 '각만 다듬기, 더 많이'): the old game model, subdivided once, stone/moss/clay vertices Laplacian-smoothed (30x, volume kept), wood/leaves/rope untouched, decimated, _MATERIAL by colour, light AO."
+ },
+ {
+  "id": "facility.circuitLamp-boxDoor",
+  "old": "env/building-circuitLamp-boxDoor.glb",
+  "variants": [
+   "env-v3/building-circuitLamp-boxDoor.glb"
+  ],
+  "low": "env-v3/building-circuitLamp-boxDoor.glb",
+  "tris": {
+   "old": 33,
+   "model": 132,
+   "low": 132
+  },
+  "materials": [
+   4
+  ],
+  "notes": "Facility smoothing (user 2026-11-28 '각만 다듬기, 더 많이'): the old game model, subdivided once, stone/moss/clay vertices Laplacian-smoothed (30x, volume kept), wood/leaves/rope untouched, decimated, _MATERIAL by colour, light AO."
+ },
+ {
+  "id": "facility.circuitLamp-lever",
+  "old": "env/building-circuitLamp-lever.glb",
+  "variants": [
+   "env-v3/building-circuitLamp-lever.glb"
+  ],
+  "low": "env-v3/building-circuitLamp-lever.glb",
+  "tris": {
+   "old": 2499,
+   "model": 3937,
+   "low": 3937
+  },
+  "materials": [
+   1,
+   2,
+   4,
+   8
+  ],
+  "notes": "Facility smoothing (user 2026-11-28 '각만 다듬기, 더 많이'): the old game model, subdivided once, stone/moss/clay vertices Laplacian-smoothed (30x, volume kept), wood/leaves/rope untouched, decimated, _MATERIAL by colour, light AO."
+ },
+ {
+  "id": "facility.circuitLamp-open",
+  "old": "env/building-circuitLamp-open.glb",
+  "variants": [
+   "env-v3/building-circuitLamp-open.glb"
+  ],
+  "low": "env-v3/building-circuitLamp-open.glb",
+  "tris": {
+   "old": 4968,
+   "model": 7827,
+   "low": 7827
+  },
+  "materials": [
+   1,
+   2,
+   4,
+   5,
+   7,
+   8,
+   9
+  ],
+  "notes": "Facility smoothing (user 2026-11-28 '각만 다듬기, 더 많이'): the old game model, subdivided once, stone/moss/clay vertices Laplacian-smoothed (30x, volume kept), wood/leaves/rope untouched, decimated, _MATERIAL by colour, light AO."
+ }
+]

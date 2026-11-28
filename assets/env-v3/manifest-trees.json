@@ -1,0 +1,378 @@
+[
+ {
+  "id": "tree.standing",
+  "old": "env-v2/tree-standing-a.glb",
+  "variants": [
+   "env-v3/tree-standing-a-v1.glb",
+   "env-v3/tree-standing-a-v2.glb",
+   "env-v3/tree-standing-a-v3.glb"
+  ],
+  "low": "env-v3/tree-standing-a-low.glb",
+  "oldFar": "env-v2/tree-standing-a-far.glb",
+  "far": [
+   "env-v3/tree-standing-a-far-v1.glb",
+   "env-v3/tree-standing-a-far-v2.glb",
+   "env-v3/tree-standing-a-far-v3.glb"
+  ],
+  "tris": {
+   "old": 845,
+   "v1": 2120,
+   "v2": 2318,
+   "v3": 2298,
+   "low": 703,
+   "oldFar": 169,
+   "far1": 223,
+   "far2": 219,
+   "far3": 225,
+   "budget": 2535
+  },
+  "parts": [
+   "0_trunk",
+   "1_leaves"
+  ],
+  "materials": [
+   3,
+   4,
+   7
+  ],
+  "notes": "Broadleaf A. Lofted trunk with root-flare lobes, wandering bark ridges, knot, branch collars; v1 snapped/cut stub, v2 two stubs, v3 three. Crown = leaf-cluster lumps (smooth). v1 crown centre/radii = old."
+ },
+ {
+  "id": "tree.standing.b",
+  "old": "env-v2/tree-standing-b.glb",
+  "variants": [
+   "env-v3/tree-standing-b-v1.glb",
+   "env-v3/tree-standing-b-v2.glb",
+   "env-v3/tree-standing-b-v3.glb"
+  ],
+  "low": "env-v3/tree-standing-b-low.glb",
+  "oldFar": "env-v2/tree-standing-b-far.glb",
+  "far": [
+   "env-v3/tree-standing-b-far-v1.glb",
+   "env-v3/tree-standing-b-far-v2.glb",
+   "env-v3/tree-standing-b-far-v3.glb"
+  ],
+  "tris": {
+   "old": 805,
+   "v1": 2267,
+   "v2": 2414,
+   "v3": 2368,
+   "low": 760,
+   "oldFar": 163,
+   "far1": 224,
+   "far2": 218,
+   "far3": 225,
+   "budget": 2415
+  },
+  "parts": [
+   "0_trunk.002",
+   "1_leaves.002"
+  ],
+  "materials": [
+   3,
+   4,
+   7
+  ],
+  "notes": "Broadleaf B (tall crown; maple red reuses it - leaf part is leaves only, so the solid recolour still works)."
+ },
+ {
+  "id": "tree.standing.c",
+  "old": "env-v2/tree-standing-c.glb",
+  "variants": [
+   "env-v3/tree-standing-c-v1.glb",
+   "env-v3/tree-standing-c-v2.glb",
+   "env-v3/tree-standing-c-v3.glb"
+  ],
+  "low": "env-v3/tree-standing-c-low.glb",
+  "oldFar": "env-v2/tree-standing-c-far.glb",
+  "far": [
+   "env-v3/tree-standing-c-far-v1.glb",
+   "env-v3/tree-standing-c-far-v2.glb",
+   "env-v3/tree-standing-c-far-v3.glb"
+  ],
+  "tris": {
+   "old": 793,
+   "v1": 2254,
+   "v2": 2264,
+   "v3": 2329,
+   "low": 744,
+   "oldFar": 165,
+   "far1": 227,
+   "far2": 219,
+   "far3": 221,
+   "budget": 2379
+  },
+  "parts": [
+   "0_trunk.004",
+   "1_leaves.004"
+  ],
+  "materials": [
+   3,
+   4,
+   7
+  ],
+  "notes": "Broadleaf C (wide crown; maple gold reuses it)."
+ },
+ {
+  "id": "tree.pine",
+  "old": "env-v2/tree-pine.glb",
+  "variants": [
+   "env-v3/tree-pine-v1.glb",
+   "env-v3/tree-pine-v2.glb",
+   "env-v3/tree-pine-v3.glb"
+  ],
+  "low": "env-v3/tree-pine-low.glb",
+  "oldFar": "env-v2/tree-pine-far.glb",
+  "far": [
+   "env-v3/tree-pine-far-v1.glb",
+   "env-v3/tree-pine-far-v2.glb",
+   "env-v3/tree-pine-far-v3.glb"
+  ],
+  "tris": {
+   "old": 1326,
+   "v1": 3868,
+   "v2": 3961,
+   "v3": 3886,
+   "low": 1323,
+   "oldFar": 194,
+   "far1": 252,
+   "far2": 252,
+   "far3": 252,
+   "budget": 3978
+  },
+  "parts": [
+   "0_trunk.008",
+   "1_leaves.008"
+  ],
+  "materials": [
+   3,
+   4,
+   7
+  ],
+  "notes": "Black pine: S-bent trunk with plated bark (ridges + horizontal plate cracks), limbs with collars and twigs fanning under scalloped needle pads; flat pad undersides."
+ },
+ {
+  "id": "tree.palm",
+  "old": "env-v2/tree-palm.glb",
+  "variants": [
+   "env-v3/tree-palm-v1.glb",
+   "env-v3/tree-palm-v2.glb",
+   "env-v3/tree-palm-v3.glb"
+  ],
+  "low": "env-v3/tree-palm-low.glb",
+  "oldFar": "env-v2/tree-palm-far.glb",
+  "far": [
+   "env-v3/tree-palm-far-v1.glb",
+   "env-v3/tree-palm-far-v2.glb",
+   "env-v3/tree-palm-far-v3.glb"
+  ],
+  "tris": {
+   "old": 2026,
+   "v1": 5457,
+   "v2": 5537,
+   "v3": 5457,
+   "low": 1541,
+   "oldFar": 594,
+   "far1": 825,
+   "far2": 825,
+   "far3": 825,
+   "budget": 6078
+  },
+  "parts": [
+   "0_trunk.006",
+   "1_leaves.006"
+  ],
+  "materials": [
+   0,
+   3,
+   7
+  ],
+  "notes": "Palm: leaf-scar rings modelled as lips, swollen foot with root nubs, 9 fronds of folded V leaflets (two-sided), frond boots and coconuts (brown, not leaf-carded). 9 fronds kept for tree-hq frond clustering."
+ },
+ {
+  "id": "tree.camellia",
+  "old": "env-v2/tree-camellia.glb",
+  "variants": [
+   "env-v3/tree-camellia-v1.glb",
+   "env-v3/tree-camellia-v2.glb",
+   "env-v3/tree-camellia-v3.glb"
+  ],
+  "low": "env-v3/tree-camellia-low.glb",
+  "oldFar": "env-v2/tree-camellia-far.glb",
+  "far": [
+   "env-v3/tree-camellia-far-v1.glb",
+   "env-v3/tree-camellia-far-v2.glb",
+   "env-v3/tree-camellia-far-v3.glb"
+  ],
+  "tris": {
+   "old": 1151,
+   "v1": 2672,
+   "v2": 2557,
+   "v3": 2658,
+   "low": 975,
+   "oldFar": 206,
+   "far1": 208,
+   "far2": 203,
+   "far3": 202,
+   "budget": 3453
+  },
+  "parts": [
+   "0_trunk.010",
+   "1_leaves.010"
+  ],
+  "materials": [
+   0,
+   3,
+   4,
+   7
+  ],
+  "notes": "Camellia: short smooth grey trunk forking into 4 stems, glossy dark leaf-cluster crown, 22 red flowers (non-green, skipped by leaf cards)."
+ },
+ {
+  "id": "tree.big",
+  "old": "env-v2/tree-big.glb",
+  "variants": [
+   "env-v3/tree-big-v1.glb",
+   "env-v3/tree-big-v2.glb",
+   "env-v3/tree-big-v3.glb"
+  ],
+  "low": "env-v3/tree-big-low.glb",
+  "oldFar": "env-v2/tree-big-far.glb",
+  "far": [
+   "env-v3/tree-big-far-v1.glb",
+   "env-v3/tree-big-far-v2.glb",
+   "env-v3/tree-big-far-v3.glb"
+  ],
+  "tris": {
+   "old": 1311,
+   "v1": 3777,
+   "v2": 3743,
+   "v3": 3779,
+   "low": 1198,
+   "oldFar": 389,
+   "far1": 436,
+   "far2": 425,
+   "far3": 434,
+   "budget": 3933
+  },
+  "parts": [
+   "0_trunk.012",
+   "1_leaves.012"
+  ],
+  "materials": [
+   3,
+   4,
+   5,
+   7
+  ],
+  "notes": "Big old tree: 24-sided fluted trunk, 6 buttress lobes into roots, moss on the north side, two burl knots, 6 limbs with collars, 2-3 cut/snapped stubs."
+ },
+ {
+  "id": "tree.stump",
+  "old": "env-v2/tree-stump.glb",
+  "variants": [
+   "env-v3/tree-stump-v1.glb",
+   "env-v3/tree-stump-v2.glb",
+   "env-v3/tree-stump-v3.glb"
+  ],
+  "low": "env-v3/tree-stump-low.glb",
+  "tris": {
+   "old": 221,
+   "v1": 1046,
+   "v2": 1046,
+   "v3": 1093,
+   "low": 208,
+   "budget": 3000
+  },
+  "parts": [
+   "0_stump.001"
+  ],
+  "materials": [
+   3,
+   4
+  ],
+  "notes": "Stump: tilted sawn top with growth rings and radial cracks cut as grooves, chipped rim, root-flare lobes into 4-5 roots."
+ },
+ {
+  "id": "tree.big.stump",
+  "old": "env-v2/tree-big-stump.glb",
+  "variants": [
+   "env-v3/tree-big-stump-v1.glb",
+   "env-v3/tree-big-stump-v2.glb",
+   "env-v3/tree-big-stump-v3.glb"
+  ],
+  "low": "env-v3/tree-big-stump-low.glb",
+  "tris": {
+   "old": 384,
+   "v1": 1362,
+   "v2": 1362,
+   "v3": 1362,
+   "low": 346,
+   "budget": 3000
+  },
+  "parts": [
+   "0_stump"
+  ],
+  "materials": [
+   3,
+   4,
+   5
+  ],
+  "notes": "Big stump: same idea at big-tree size with moss and 6 buttress roots."
+ },
+ {
+  "id": "tree.young",
+  "old": "env-v2/tree-young.glb",
+  "variants": [
+   "env-v3/tree-young-v1.glb",
+   "env-v3/tree-young-v2.glb",
+   "env-v3/tree-young-v3.glb"
+  ],
+  "low": "env-v3/tree-young-low.glb",
+  "tris": {
+   "old": 612,
+   "v1": 1849,
+   "v2": 1932,
+   "v3": 1930,
+   "low": 593,
+   "budget": 3000
+  },
+  "parts": [
+   "0_trunk.014",
+   "1_leaves.014"
+  ],
+  "materials": [
+   3,
+   4,
+   7
+  ],
+  "notes": "Young tree: small flared trunk with knot, collared arms, small leaf-cluster crown."
+ },
+ {
+  "id": "tree.sapling",
+  "old": "env-v2/tree-sapling.glb",
+  "variants": [
+   "env-v3/tree-sapling-v1.glb",
+   "env-v3/tree-sapling-v2.glb",
+   "env-v3/tree-sapling-v3.glb"
+  ],
+  "low": "env-v3/tree-sapling-low.glb",
+  "tris": {
+   "old": 164,
+   "v1": 989,
+   "v2": 971,
+   "v3": 966,
+   "low": 133,
+   "budget": 3000
+  },
+  "parts": [
+   "0_trunk.015",
+   "1_leaves.015"
+  ],
+  "materials": [
+   3,
+   7
+  ],
+  "notes": "Sapling: thin stem, collared side twig, small clustered leaf lumps."
+ }
+]

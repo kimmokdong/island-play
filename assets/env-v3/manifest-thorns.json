@@ -1,0 +1,49 @@
+[
+  {
+    "id": "deco.thorns",
+    "old": "",
+    "variants": [
+      "env-v3/deco-thorns-v1.glb",
+      "env-v3/deco-thorns-v2.glb",
+      "env-v3/deco-thorns-v3.glb"
+    ],
+    "low": "env-v3/deco-thorns-low.glb",
+    "far": [],
+    "tris": {
+      "budget": 2500,
+      "low_budget": 700,
+      "v1": 2091,
+      "v2": 2292,
+      "v3": 2013,
+      "low": 528
+    },
+    "size": {
+      "v1": [
+        2.833,
+        2.362,
+        1.422
+      ],
+      "v2": [
+        3.383,
+        3.282,
+        1.248
+      ],
+      "v3": [
+        2.457,
+        2.101,
+        1.636
+      ],
+      "low": [
+        2.34,
+        2.735,
+        1.376
+      ]
+    },
+    "notes": "DECO-FIX-1 jungle gate bramble: arching canes, hooked thorns, few leaves, dead canes. Real size, no fit.",
+    "materials": [
+      3,
+      4,
+      7
+    ]
+  }
+]
